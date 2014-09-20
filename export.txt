@@ -1,0 +1,4 @@
+open thispatcher
+folder "Macintosh HD:/Users/maartenwesselius/Projects/EEatLOR/grotehangplek/percussion/percussion_samples"
+folder "Macintosh HD:/Users/maartenwesselius/Projects/EEatLOR/grotehangplek/percussion/percussion_samples/klepsamples"
+folder "Macintosh HD:/Users/maartenwesselius/Projects/EEatLOR/grotehangplek/percussion/percussion_samples/staccatos"include "Macintosh HD:/Users/maartenwesselius/Projects/EEatLOR/grotehangplek/percussion/tunedpercussion.txt"include "Macintosh HD:/Users/maartenwesselius/Projects/EEatLOR/grotehangplek/percussion/untunedpercussion.txt"

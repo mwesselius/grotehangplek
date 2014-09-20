@@ -1,0 +1,1 @@
+#N vpreset 2;#X append 1 1 93 155 620 flonum float 5. \; 91 128 589 flonum float 2.67 \; 92 155 569 flonum float 2.67 \; 96 185 506 flonum float 0.2 \; 94 129 468 flonum float 0.16 \;;#X append 2 1 93 155 620 flonum float 1. \; 91 128 589 flonum float 1. \; 92 155 569 flonum float 1. \; 96 185 506 flonum float 1. \; 94 129 468 flonum float 1. \;;

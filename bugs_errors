@@ -4,7 +4,6 @@ gebeurt alleen in runtime met collective. lijkt niet erg te zijn verder?
 DRIE PUNT EEN
 
 - naast 'save current contents' ook 'save current selection'
-> tempo kunnen setten met tikken (bpm tapping)
 > voor het volume van delays ook eentje die de range 0 - 0.25 heeft (meer precisie nodig voor als feedback = max),
   of nog beter: volume range is direct afhankelijk van feedback-waarde
 > dials functie geven: met alt-click teruggezet naar hun default-waarde; misschien ook bij andersoortige invoervelden?

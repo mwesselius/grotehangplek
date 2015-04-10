@@ -3,7 +3,6 @@ gebeurt alleen in runtime met collective. lijkt niet erg te zijn verder?
 
 DRIE PUNT EEN
 
-> andere default volume voor de delay widgets
 - naast 'save current contents' ook 'save current selection'
 > tempo kunnen setten met tikken (bpm tapping)
 > voor het volume van delays ook eentje die de range 0 - 0.25 heeft (meer precisie nodig voor als feedback = max),

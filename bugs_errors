@@ -3,11 +3,12 @@ gebeurt alleen in runtime met collective. lijkt niet erg te zijn verder?
 
 DRIE PUNT EEN
 
-- andere default volume voor de delay widgets
+> andere default volume voor de delay widgets
 - naast 'save current contents' ook 'save current selection'
-- in waveform, add switch button: playback goes from x to -x (flip around)
-- tempo kunnen setten met tikken (bpm tapping)
-- voor het volume van delays ook eentje die de range 0 - 0.25 heeft (meer precisie nodig voor als feedback = max
+> tempo kunnen setten met tikken (bpm tapping)
+> voor het volume van delays ook eentje die de range 0 - 0.25 heeft (meer precisie nodig voor als feedback = max),
+  of nog beter: volume range is direct afhankelijk van feedback-waarde
+> dials functie geven: met alt-click teruggezet naar hun default-waarde; misschien ook bij andersoortige invoervelden?
 - allerlei bugs random selectie; alle range parameters min en max moeten eigenlijk aan elkaar gekoppeld zijn; zelfgemaakte patch rangelimit gebruiken; hoeven niet drie number boxes voor elke parameter, 1 is genoeg
 - in waveform komt nu reverb voor pitch; moet andersom
 - compressor/limiter op alle output

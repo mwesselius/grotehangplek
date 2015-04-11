@@ -8,7 +8,6 @@ DRIE PUNT EEN
   of nog beter: volume range is direct afhankelijk van feedback-waarde
 - allerlei bugs random selectie; alle range parameters min en max moeten eigenlijk aan elkaar gekoppeld zijn; zelfgemaakte patch rangelimit gebruiken; hoeven niet drie number boxes voor elke parameter, 1 is genoeg
 - in waveform komt nu reverb voor pitch; moet andersom
-> compressor/limiter op alle output (omx.comp~)
 - andere 'speelmodus' voor waveorm: noteon triggert play (noteoff triggers stop) en bepaalt pitch; polyfoon maken wordt lastig, met mono beginnen? ADSR maken? echte sampler
 - sync widget in granular-gedeelte blijft zichtbaar als je naar loopgroove-gedeelte gaat
 - lossesamples moeten alle .wav geluiden inladen die in de map staan onder de bv. 32 MB ipv vaste filenames

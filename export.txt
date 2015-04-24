@@ -1,4 +1,4 @@
 open thispatcher
-folder "Macintosh HD:/Users/maartenwesselius/Projects/EEatLOR/grotehangplek/grotehangplek_source/percussion/percussion_samples"
-folder "Macintosh HD:/Users/maartenwesselius/Projects/EEatLOR/grotehangplek/grotehangplek_source/percussion/percussion_samples/klepsamples"
-folder "Macintosh HD:/Users/maartenwesselius/Projects/EEatLOR/grotehangplek/grotehangplek_source/percussion/percussion_samples/staccatos"include "Macintosh HD:/Users/maartenwesselius/Projects/EEatLOR/grotehangplek/grotehangplek_source/percussion/tunedpercussion.txt"include "Macintosh HD:/Users/maartenwesselius/Projects/EEatLOR/grotehangplek/grotehangplek_source/percussion/untunedpercussion.txt"
+folder "Macintosh HD:/Users/maartenwesselius/Documents/maxpatches/grotehangplek/grotehangplek_source/percussion/percussion_samples"
+folder "Macintosh HD:/Users/maartenwesselius/Documents/maxpatches/grotehangplek/grotehangplek_source/percussion/percussion_samples/klepsamples"
+folder "Macintosh HD:/Users/maartenwesselius/Documents/maxpatches/grotehangplek/grotehangplek_source/percussion/percussion_samples/staccatos"include "Macintosh HD:/Users/maartenwesselius/Documents/maxpatches/grotehangplek/grotehangplek_source/percussion/tunedpercussion.txt"include "Macintosh HD:/Users/maartenwesselius/Documents/maxpatches/grotehangplek/grotehangplek_source/percussion/untunedpercussion.txt"

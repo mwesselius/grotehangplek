@@ -3,9 +3,7 @@ gebeurt alleen in runtime met collective. lijkt niet erg te zijn verder?
 
 DRIE PUNT EEN
 
-- recording: datum/tijd in filename zodat niet overschrijf
 - pitch + pitch deviation controls; los bestuurbaar
-- handig: 'status'scherm heel klein, altijd in beeld: mute en outputsignal van elke waveform, laatst ingedrukte midi-toets, meer..?
 - weergeven naast waveform of ie input ontvangt (midi en toetsen)
 - toggleable volume-envelope voor groove- loop, zie youtube video van joel rich 'part 2: granular envelope'; huidige versie fade alleen uit, die is misschien handig voor play once?
 - bug: palindrome werkt niet bij hoge playback speeds / korte selecties

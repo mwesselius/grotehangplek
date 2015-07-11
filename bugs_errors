@@ -3,7 +3,6 @@ gebeurt alleen in runtime met collective. lijkt niet erg te zijn verder?
 
 DRIE PUNT EEN
 
-- loop default in plaats van play once
 - pitch + pitch deviation controls; los bestuurbaar
 - weergeven naast waveform of ie input ontvangt (midi en toetsen)
 - bug: palindrome werkt niet bij hoge playback speeds / korte selecties (betere waarde vinden voor de 'detectionfraction'?)

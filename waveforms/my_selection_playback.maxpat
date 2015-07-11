@@ -283,10 +283,10 @@
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p reverser"
@@ -897,8 +897,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 90.0, 22.0, 17.0 ],
-					"text" : "1"
+					"patching_rect" : [ 285.0, 90.0, 32.5, 17.0 ],
+					"text" : "0"
 				}
 
 			}
@@ -947,7 +947,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 15.0, 18.0, 62.0 ],
 					"size" : 3,
-					"value" : 1
+					"value" : 0
 				}
 
 			}

@@ -3,10 +3,15 @@ gebeurt alleen in runtime met collective. lijkt niet erg te zijn verder?
 
 DRIE PUNT EEN
 
+- play once werkt niet voor achteruit spelen (playback speed -1)
+- limiter op het inputsigaal, niet alleen op output
+- delay time max hoger (5 digits)
+- met modulation wheel declick instellen
+- herbruikbare patch stopsound: fade out multiplier, dan bang
 - pitch + pitch deviation controls; los bestuurbaar
 - weergeven naast waveform of ie input ontvangt (midi en toetsen)
-- bug: palindrome werkt niet bij hoge playback speeds / korte selecties (betere waarde vinden voor de 'detectionfraction'?)
-- bug: play once werkt niet voor hele korte selecties; voor evenredig hoge playback wel!
+- bug: palindrome werkt niet bij hoge playback speeds / korte selecties (betere waarde vinden voor de 'detectionfraction'?) delta~ gebruiken?
+- bug: play once werkt niet voor hele korte selecties; voor evenredig hoge playback wel! delta~ gebruiken?
 - naast 'save current contents' ook 'save current selection'
 - bug: sync widget in granular-gedeelte blijft zichtbaar als je naar loopgroove-gedeelte gaat (elders ook)
 - lossesamples moeten alle .wav geluiden inladen die in de map staan onder de bv. 32 MB ipv vaste filenames
@@ -38,6 +43,5 @@ LESSEN GROTEHANGPLEK IMPRO
 beat tappen werkt goed
 alt+pitch is lastig omdat beide handen bezet zijn
 'meezingen' direct met mic en delays werkt alleen goed bij kleine bezetting, anders is het vooral een bron van extra chaos
-twee handen is te weinig; voetpedalen?
-DI (direct input) kopen voor handig aansluiten op xlr
+twee handen is te weinig; voetpedalen? druksensoren op schoenzolen?
 goede oordopjes kopen

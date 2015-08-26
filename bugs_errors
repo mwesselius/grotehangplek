@@ -4,7 +4,6 @@ gebeurt alleen in runtime met collective. lijkt niet erg te zijn verder?
 DRIE PUNT EEN
 
 - play once werkt niet voor achteruit spelen (playback speed -1)
-- delay time max hoger (5 digits)
 - met modulation wheel declick instellen
 - herbruikbare patch stopsound: fade out multiplier, dan bang
 - pitch + pitch deviation controls; los bestuurbaar

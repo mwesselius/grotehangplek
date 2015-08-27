@@ -28,6 +28,19 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
+					"id" : "obj-146",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 690.0, 780.0, 72.0, 19.0 ],
+					"text" : "s #1o_w_foc"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
 					"id" : "obj-145",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -11212,6 +11225,15 @@
 					"destination" : [ "obj-131", 0 ],
 					"hidden" : 0,
 					"midpoints" : [ 684.5, 919.0, 489.5, 919.0 ],
+					"source" : [ "obj-191", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-146", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
 					"source" : [ "obj-191", 0 ]
 				}
 

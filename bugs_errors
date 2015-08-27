@@ -3,20 +3,20 @@ gebeurt alleen in runtime met collective. lijkt niet erg te zijn verder?
 
 DRIE PUNT EEN
 
-- play once werkt niet voor achteruit spelen (playback speed -1)
-- met modulation wheel declick instellen
+- test: met modulation wheel declick instellen
 - herbruikbare patch stopsound: fade out multiplier, dan bang
 - pitch + pitch deviation controls; los bestuurbaar
-- weergeven naast waveform of ie input ontvangt (midi en toetsen)
+- weergeven naast waveform of ie input ontvangt (midi en toetsen) (nu nog alleen in overview)
+- play once werkt niet voor achteruit spelen (playback speed -1); zie testdelta~
 - bug: palindrome werkt niet bij hoge playback speeds / korte selecties (betere waarde vinden voor de 'detectionfraction'?) delta~ gebruiken?
 - bug: play once werkt niet voor hele korte selecties; voor evenredig hoge playback wel! delta~ gebruiken?
-- naast 'save current contents' ook 'save current selection'
 - bug: sync widget in granular-gedeelte blijft zichtbaar als je naar loopgroove-gedeelte gaat (elders ook)
 - lossesamples moeten alle .wav geluiden inladen die in de map staan onder de bv. 32 MB ipv vaste filenames
 - allerlei bugs random selectie; alle range parameters min en max moeten eigenlijk aan elkaar gekoppeld zijn; zelfgemaakte patch rangelimit gebruiken; hoeven niet drie number boxes voor elke parameter, 1 is genoeg
 
 VIER PUNT NUL
 
+- naast 'save current contents' ook 'save current selection'
 - 4/5 ipv 3 waveforms?
 - andere 'speelmodus' voor waveform: noteon triggert play (noteoff triggers stop) en bepaalt pitch; polyfoon maken wordt lastig, met mono beginnen? ADSR maken? echte sampler
 - pulsemetro vervangen door transport… dan geen beat value meer?

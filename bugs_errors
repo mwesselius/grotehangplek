@@ -4,8 +4,7 @@ gebeurt alleen in runtime met collective. lijkt niet erg te zijn verder?
 DRIE PUNT EEN
 
 - gebruik stopsound of soundgate~:
- - reverb uit zetten!
- - amplify bij elke wijziging (moet smooth)!
+ - reverb uit zetten! is bypass parameter van freeverb...
  - verplaatsen selectie in waveform, inherent aan groove lijkt het
  - aan/uit knop van hele subpatch via mute~
 - pitch + pitch deviation controls; los bestuurbaar

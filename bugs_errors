@@ -5,15 +5,15 @@ DRIE PUNT EEN
 
 - gebruik stopsound of soundgate~:
  - reverb uit zetten! is bypass parameter van freeverb...
+ - playback mode wisselen (gran/loop/travel)
  - verplaatsen selectie in waveform, inherent aan groove lijkt het
  - aan/uit knop van hele subpatch via mute~
 - pitch + pitch deviation controls; los bestuurbaar
-- play once werkt niet voor achteruit spelen (playback speed -1); zie testdelta~: https://cycling74.com/forums/topic/groove-wont-reverse-on-startloop/
-- werken trapezoid en/of grooveduck misschien beter voor al dit soort dingen?
+- lossesamples moeten alle .wav geluiden inladen die in de map staan onder de bv. 32 MB ipv vaste filenames
+- bug: play once werkt niet voor achteruit spelen (playback speed -1); zie testdelta~: https://cycling74.com/forums/topic/groove-wont-reverse-on-startloop/
 - bug: palindrome werkt niet bij hoge playback speeds / korte selecties (betere waarde vinden voor de 'detectionfraction'?) delta~ gebruiken? of liefst geen detectionfraction gebruiken maar aandrijven dmv triangular signal (play~ ipv groove~?)
 - bug: play once werkt niet voor hele korte selecties; voor evenredig hoge playback wel! delta~ gebruiken?
-- bug: sync widget in granular-gedeelte blijft zichtbaar als je naar loopgroove-gedeelte gaat (elders ook)
-- lossesamples moeten alle .wav geluiden inladen die in de map staan onder de bv. 32 MB ipv vaste filenames
+- werken trapezoid en/of grooveduck misschien beter voor al dit soort dingen?
 - allerlei bugs random selectie; alle range parameters min en max moeten eigenlijk aan elkaar gekoppeld zijn; zelfgemaakte patch rangelimit gebruiken; hoeven niet drie number boxes voor elke parameter, 1 is genoeg
 - definitieve interface layout
 

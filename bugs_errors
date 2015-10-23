@@ -3,22 +3,21 @@ gebeurt alleen in runtime met collective. lijkt niet erg te zijn verder?
 
 DRIE PUNT EEN
 
-- gebruik stopsound of soundgate~:
- - reverb uit zetten! is bypass parameter van freeverb...
- - playback mode wisselen (gran/loop/travel)
- - verplaatsen selectie in waveform, inherent aan groove lijkt het
- - aan/uit knop van hele subpatch via mute~
-- pitch + pitch deviation controls; los bestuurbaar
+- grainbuffer play/stop: click verwijderen
+- pitch widget maken met:
+ - pitch deviation controls; los bestuurbaar
+ - pitch slide instelbaar
+ - grootte bend wheel effect instelbaar
 - lossesamples moeten alle .wav geluiden inladen die in de map staan onder de bv. 32 MB ipv vaste filenames
+- definitieve interface layout
+
+DRIE PUNT TWEE
+
+- allerlei bugs random selectie; alle range parameters min en max moeten eigenlijk aan elkaar gekoppeld zijn; zelfgemaakte patch rangelimit gebruiken; hoeven niet drie number boxes voor elke parameter, 1 is genoeg
 - bug: play once werkt niet voor achteruit spelen (playback speed -1); zie testdelta~: https://cycling74.com/forums/topic/groove-wont-reverse-on-startloop/
 - bug: palindrome werkt niet bij hoge playback speeds / korte selecties (betere waarde vinden voor de 'detectionfraction'?) delta~ gebruiken? of liefst geen detectionfraction gebruiken maar aandrijven dmv triangular signal (play~ ipv groove~?)
 - bug: play once werkt niet voor hele korte selecties; voor evenredig hoge playback wel! delta~ gebruiken?
 - werken trapezoid en/of grooveduck misschien beter voor al dit soort dingen?
-- allerlei bugs random selectie; alle range parameters min en max moeten eigenlijk aan elkaar gekoppeld zijn; zelfgemaakte patch rangelimit gebruiken; hoeven niet drie number boxes voor elke parameter, 1 is genoeg
-- definitieve interface layout
-
-VIER PUNT NUL
-
 - naast 'save current contents' ook 'save current selection'
 - 4/5 ipv 3 waveforms?
 - andere 'speelmodus' voor waveform: noteon triggert play (noteoff triggers stop) en bepaalt pitch; polyfoon maken wordt lastig, met mono beginnen? ADSR maken? echte sampler

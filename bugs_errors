@@ -7,6 +7,7 @@ DRIE PUNT EEN
 
 DRIE PUNT TWEE
 
+- matrix~ gebruiken om alle onderdelen te mixen; aan/uit led moet met delaymute zodat er geen tik te horen is en moet ook direct het delay signaal in die matrix~ uitzetten (nu hoor je de tik echoen)
 - lossesamples moeten alle .wav geluiden inladen die in de map staan onder de bv. 32 MB ipv vaste filenames
 - allerlei bugs random selectie; alle range parameters min en max moeten eigenlijk aan elkaar gekoppeld zijn; zelfgemaakte patch rangelimit gebruiken; hoeven niet drie number boxes voor elke parameter, 1 is genoeg
 - bug: play once werkt niet voor achteruit spelen (playback speed -1); zie testdelta~: https://cycling74.com/forums/topic/groove-wont-reverse-on-startloop/

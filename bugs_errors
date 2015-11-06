@@ -3,12 +3,13 @@ gebeurt alleen in runtime met collective. lijkt niet erg te zijn verder?
 
 DRIE PUNT EEN
 
-- leuke palindrome bugs als optie houden
- - 1) detection fraction niet per waveform, maar geldig voor alle
- - 2) snel wisselen tussen heen&terug: tonen
+…
 
 DRIE PUNT TWEE (max 7?)
 
+- leuke palindrome bugs als optie houden
+ - 1) detection fraction niet per waveform, maar geldig voor alle
+ - 2) snel wisselen tussen heen&terug: tonen (zie palindrome_buggy_backup.maxpat)
 - matrix~ gebruiken om alle onderdelen te mixen; aan/uit led moet met delaymute zodat er geen tik te horen is en moet ook direct het delay signaal in die matrix~ uitzetten (nu hoor je de tik echoen)
 - lossesamples moeten alle .wav geluiden inladen die in de map staan onder de bv. 32 MB ipv vaste filenames
 - allerlei bugs random selectie; alle range parameters min en max moeten eigenlijk aan elkaar gekoppeld zijn; zelfgemaakte patch rangelimit gebruiken; hoeven niet drie number boxes voor elke parameter, 1 is genoeg

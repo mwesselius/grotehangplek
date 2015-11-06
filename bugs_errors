@@ -3,8 +3,6 @@ gebeurt alleen in runtime met collective. lijkt niet erg te zijn verder?
 
 DRIE PUNT EEN
 
-- declick ook bij palindrome mogelijk maken?
-- de-click iets minder exponentieel
 - leuke palindrome bugs als optie houden
  - 1) detection fraction niet per waveform, maar geldig voor alle
  - 2) snel wisselen tussen heen&terug: tonen

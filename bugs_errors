@@ -3,9 +3,12 @@ gebeurt alleen in runtime met collective. lijkt niet erg te zijn verder?
 
 DRIE PUNT EEN
 
-- bug: palindrome edge detection gaat te vaak fout
-- bug: play once edge detection gaat fout
+- bug: palindrome wisselt te vaak aan de rand tussen heen/terug
 - declick ook bij palindrome mogelijk maken?
+- de-click iets minder exponentieel
+- leuke palindrome bugs als optie houden
+ - 1) detection fraction niet per waveform, maar geldig voor alle
+ - 2) snel wisselen tussen heen&terug: tonen
 
 DRIE PUNT TWEE (max 7?)
 

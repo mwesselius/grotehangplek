@@ -3,7 +3,6 @@ gebeurt alleen in runtime met collective. lijkt niet erg te zijn verder?
 
 DRIE PUNT EEN
 
-- live buffer default ipv sample
 - bug: palindrome edge detection gaat te vaak fout
 - bug: play once edge detection gaat fout
 - declick ook bij palindrome mogelijk maken?

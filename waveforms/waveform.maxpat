@@ -955,7 +955,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 30.0, 67.0, 19.0 ],
-					"text" : "loadmess 0"
+					"text" : "loadmess 1"
 				}
 
 			}
@@ -1090,7 +1090,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 84.0, 8.0, 18.0, 58.0 ],
 					"size" : 2,
-					"value" : 0
+					"value" : 1
 				}
 
 			}
@@ -1252,7 +1252,7 @@
 					"patching_rect" : [ 75.0, 1275.0, 30.0, 46.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 932.0, 600.0, 64.0, 18.0 ],
-					"text" : "164754."
+					"text" : "1323000."
 				}
 
 			}
@@ -1312,7 +1312,7 @@
 					"patching_rect" : [ 30.0, 1275.0, 30.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 932.0, 577.0, 51.0, 18.0 ],
-					"text" : "3735"
+					"text" : "30000"
 				}
 
 			}

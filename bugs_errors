@@ -1,46 +1,41 @@
-- method bringtofront called on invalid object
-gebeurt alleen in runtime met collective. lijkt niet erg te zijn verder?
+max 5 upgrade to max 7: $150, os x 10.7
 
-DRIE PUNT EEN
-
-…
-
-DRIE PUNT TWEE (max 7?)
-
-- leuke palindrome bugs als optie houden
- - 1) detection fraction niet per waveform, maar geldig voor alle
- - 2) snel wisselen tussen heen&terug: tonen (zie palindrome_buggy_backup.maxpat)
-- matrix~ gebruiken om alle onderdelen te mixen; aan/uit led moet met delaymute zodat er geen tik te horen is en moet ook direct het delay signaal in die matrix~ uitzetten (nu hoor je de tik echoen)
-- lossesamples moeten alle .wav geluiden inladen die in de map staan onder de bv. 32 MB ipv vaste filenames
+BUGS/GROOT
 - allerlei bugs random selectie; alle range parameters min en max moeten eigenlijk aan elkaar gekoppeld zijn; zelfgemaakte patch rangelimit gebruiken; hoeven niet drie number boxes voor elke parameter, 1 is genoeg
-- bug: play once werkt niet voor achteruit spelen (playback speed -1); zie testdelta~: https://cycling74.com/forums/topic/groove-wont-reverse-on-startloop/
-- bug: palindrome werkt niet bij hoge playback speeds / korte selecties (betere waarde vinden voor de 'detectionfraction'?) delta~ gebruiken? of liefst geen detectionfraction gebruiken maar aandrijven dmv triangular signal (play~ ipv groove~?)
-- bug: play once werkt niet voor hele korte selecties; voor evenredig hoge playback wel! delta~ gebruiken?
+- play once werkt niet voor achteruit spelen (playback speed -1); zie testdelta~: https://cycling74.com/forums/topic/groove-wont-reverse-on-startloop/
+- palindrome werkt niet bij hoge playback speeds / korte selecties (betere waarde vinden voor de 'detectionfraction'?) delta~ gebruiken? of liefst geen detectionfraction gebruiken maar aandrijven dmv triangular signal (play~ ipv groove~?)
+- play once werkt niet voor hele korte selecties; voor evenredig hoge playback wel! delta~ gebruiken?
 - werken trapezoid en/of grooveduck misschien beter voor al dit soort dingen?
-- naast 'save current contents' ook 'save current selection'
+- grainbuffer selectie gaat wel achteruit maar niet vooruit; komt wss door grainbuffer, niet door grotehangplek. Nieuwste versie grainbuffer~ heeft het ook
+- grainbuffer past zich aan aan sampling rate van msp, niet aan sampling rate van de buffer; bij hoge sampling rate laag geluid, bij 44.1 soms te hoog geluid. Nieuwste versie grainbuffer~ heeft het ook. Grain frequency kwaliteit gaat trouwens omhoog met de msp sampling rate!
+- rare bugjes met loop palindrome; misschien juist wel leuk
+
+BUGS/KLEIN
+- matrix~ gebruiken om alle onderdelen te mixen; aan/uit led moet met delaymute zodat er geen tik te horen is en moet ook direct het delay signaal in die matrix~ uitzetten (nu hoor je de tik echoen)
+
+FEATURE/GROOT
+- arpeggios!
+- lossesamples moeten alle .wav geluiden inladen die in de map staan onder de bv. 32 MB ipv vaste filenames
 - 4/5 ipv 3 waveforms?
 - andere 'speelmodus' voor waveform: noteon triggert play (noteoff triggers stop) en bepaalt pitch; polyfoon maken wordt lastig, met mono beginnen? ADSR maken? echte sampler
 - pulsemetro vervangen door transport… dan geen beat value meer? groove~ kan ook transport gebruiken om loops te syncen
-- bug: grainbuffer selectie gaat wel achteruit maar niet vooruit; komt wss door grainbuffer, niet door grotehangplek. Nieuwste versie grainbuffer~ heeft het ook
-- bug: grainbuffer past zich aan aan sampling rate van msp, niet aan sampling rate van de buffer; bij hoge sampling rate laag geluid, bij 44.1 soms te hoog geluid. Nieuwste versie grainbuffer~ heeft het ook. Grain frequency kwaliteit gaat trouwens omhoog met de msp sampling rate!
-- leuke bug: als palindrome wordt waveform beinvloed door de selectie die je maakt in een andere waveform; detectionfraction was gedeeld door alle waveforms. Misschien optie maken.
-- eigen init(=reset) voor percussie (upinit en tpinit?), eigen reset-knop
 - tunedpercussion ook instrument labels (js)
 - losse applicatie om alle percussion samples te labelen; sampleloader gebruiken?
-- percussie: elk label aan/uit kunnen zetten met checkboxes
+- percussie: elk label aan/uit kunnen zetten met checkboxes (ipv eentje kiezen)
+- keep length moet beter werken (ingewikkeld)
+- percussive grains werkelijk gesynchroniseerd, niet alleen zelfde tempo (hoe dan?)
+
+FEATURE/KLEIN
+- grain presets: default weg; supercontinuous toevoegen (veel overlappende lange grains)
+- met toetsen op midi keyboard de play/stop triggeren van de waveforms
+- delays: feed naar delay kunnen aan/uitzetten terwijl feedback door blijft gaan
+- leuke palindrome bugs als optie houden
+ - 1) detection fraction niet per waveform, maar geldig voor alle
+ - 2) snel wisselen tussen heen&terug: tonen (zie palindrome_buggy_backup.maxpat)
+- naast 'save current contents' ook 'save current selection'
+- eigen init(=reset) voor percussie (upinit en tpinit?), eigen reset-knop
 - presets voor reverb~?
 - presets voor random selectie
 - presets voor percussion
 - monodelay time parameter filteren met line~? moet wel instelbaar zijn, geeft ander effect, geen tikjes meer
-- keep length moet beter werken (ingewikkeld)
-- percussive grains werkelijk gesynchroniseerd, niet alleen zelfde tempo (hoe dan?)
 - in percussion nu aantal gelijktijdige samples instelbaar; mss instelbare kans toevoegen dat volgende geluid het vorige afkapt?
-- rare bugjes met loop palindrome; misschien juist wel leuk
-- geen kliks meer met groove~ in loop mode (rampsmooth~? wave~ ipv groove~? zie testclickremoval); ook met r detectionfraction
-
-LESSEN GROTEHANGPLEK IMPRO
-beat tappen werkt goed
-alt+pitch is lastig omdat beide handen bezet zijn
-'meezingen' direct met mic en delays werkt alleen goed bij kleine bezetting, anders is het vooral een bron van extra chaos
-twee handen is te weinig; voetpedalen? druksensoren op schoenzolen?
-goede oordopjes kopen

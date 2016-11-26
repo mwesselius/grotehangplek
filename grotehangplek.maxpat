@@ -2059,13 +2059,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 528.0, 164.0, 63.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"fontface" : 0
 					}
 ,
 					"text" : "p overview"
@@ -2587,13 +2587,13 @@
 ,
 					"patching_rect" : [ 435.0, 270.0, 66.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"fontface" : 0
 					}
 ,
 					"text" : "p taptempo"
@@ -2825,13 +2825,13 @@
 ,
 					"patching_rect" : [ 30.0, 330.0, 71.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"fontface" : 0
 					}
 ,
 					"text" : "p setwindow"
@@ -2849,7 +2849,7 @@
 					"patching_rect" : [ 589.0, 610.0, 35.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 416.0, 555.0, 29.0, 19.0 ],
-					"text" : "een"
+					"text" : "...2"
 				}
 
 			}
@@ -3376,17 +3376,17 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 555.0, 64.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"cantclosetoplevelpatchers" : 1,
-						"audiosupport" : 1,
-						"extensions" : 1,
-						"overdrive" : 0,
 						"searchformissingfiles" : 1,
+						"extensions" : 1,
 						"usesearchpath" : 1,
-						"allwindowsactive" : 0,
+						"overdrive" : 0,
 						"statusvisible" : 1,
-						"midisupport" : 1,
 						"preffilename" : "Max 5 Preferences",
-						"noloadbangdefeating" : 0
+						"allwindowsactive" : 0,
+						"cantclosetoplevelpatchers" : 1,
+						"noloadbangdefeating" : 0,
+						"audiosupport" : 1,
+						"midisupport" : 1
 					}
 ,
 					"text" : "standalone"
@@ -4791,13 +4791,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 599.0, 164.0, 64.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 11.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 11.0,
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 11.0,
-						"default_fontface" : 0
+						"fontface" : 0
 					}
 ,
 					"text" : "p shortcuts"
@@ -8402,13 +8402,13 @@
 ,
 					"patching_rect" : [ 330.0, 120.0, 79.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 11.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 11.0,
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 11.0,
-						"default_fontface" : 0
+						"fontface" : 0
 					}
 ,
 					"text" : "p keypresses"

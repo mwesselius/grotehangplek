@@ -34,7 +34,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 750.0, 240.0, 46.0, 19.0 ],
-					"presentation_rect" : [ 756.0, 230.0, 0.0, 0.0 ],
 					"text" : "limiter~"
 				}
 
@@ -66,7 +65,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 750.0, 210.0, 34.0, 19.0 ],
-					"presentation_rect" : [ 756.0, 200.0, 0.0, 0.0 ],
 					"text" : "*~ 1."
 				}
 
@@ -2132,13 +2130,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 528.0, 164.0, 63.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p overview"
@@ -2660,13 +2658,13 @@
 ,
 					"patching_rect" : [ 435.0, 270.0, 66.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p taptempo"
@@ -2898,13 +2896,13 @@
 ,
 					"patching_rect" : [ 30.0, 330.0, 71.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p setwindow"
@@ -2976,7 +2974,7 @@
 					"id" : "obj-227",
 					"maxclass" : "bpatcher",
 					"name" : "midi_ctl_widget.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "", "int" ],
 					"patching_rect" : [ 2265.0, 285.0, 41.0, 22.0 ],
@@ -2991,7 +2989,7 @@
 					"id" : "obj-226",
 					"maxclass" : "bpatcher",
 					"name" : "midi_ctl_widget.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "", "int" ],
 					"patching_rect" : [ 1995.0, 285.0, 41.0, 22.0 ],
@@ -3006,7 +3004,7 @@
 					"id" : "obj-225",
 					"maxclass" : "bpatcher",
 					"name" : "midi_ctl_widget.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "", "int" ],
 					"patching_rect" : [ 1725.0, 285.0, 41.0, 22.0 ],
@@ -3021,7 +3019,7 @@
 					"id" : "obj-224",
 					"maxclass" : "bpatcher",
 					"name" : "midi_ctl_widget.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "", "int" ],
 					"patching_rect" : [ 1515.0, 210.0, 41.0, 22.0 ],
@@ -3036,7 +3034,7 @@
 					"id" : "obj-223",
 					"maxclass" : "bpatcher",
 					"name" : "midi_ctl_widget.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "", "int" ],
 					"patching_rect" : [ 1305.0, 210.0, 41.0, 22.0 ],
@@ -3064,7 +3062,7 @@
 					"id" : "obj-221",
 					"maxclass" : "bpatcher",
 					"name" : "midi_ctl_widget.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "", "int" ],
 					"patching_rect" : [ 1095.0, 210.0, 41.0, 22.0 ],
@@ -3449,17 +3447,17 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 555.0, 64.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"searchformissingfiles" : 1,
 						"extensions" : 1,
-						"usesearchpath" : 1,
-						"overdrive" : 0,
-						"statusvisible" : 1,
-						"preffilename" : "Max 5 Preferences",
-						"allwindowsactive" : 0,
 						"cantclosetoplevelpatchers" : 1,
+						"preffilename" : "Max 5 Preferences",
+						"midisupport" : 1,
+						"overdrive" : 0,
+						"searchformissingfiles" : 1,
 						"noloadbangdefeating" : 0,
 						"audiosupport" : 1,
-						"midisupport" : 1
+						"allwindowsactive" : 0,
+						"usesearchpath" : 1,
+						"statusvisible" : 1
 					}
 ,
 					"text" : "standalone"
@@ -4849,13 +4847,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 599.0, 164.0, 64.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 11.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 11.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 11.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p shortcuts"
@@ -6046,7 +6044,7 @@
 					"name" : "recordingwidget.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 795.0, 345.0, 120.0, 90.0 ],
+					"patching_rect" : [ 840.0, 315.0, 113.0, 64.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 66.0, 163.0, 111.0, 24.0 ]
 				}
@@ -6730,7 +6728,7 @@
 					"patching_rect" : [ 765.0, 615.0, 27.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 447.0, 54.0, 27.0, 17.0 ],
-					"text" : "5"
+					"text" : "113"
 				}
 
 			}
@@ -8446,13 +8444,13 @@
 ,
 					"patching_rect" : [ 330.0, 120.0, 79.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 11.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 11.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 11.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p keypresses"

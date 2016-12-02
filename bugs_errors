@@ -26,9 +26,10 @@ FEATURE/GROOT
 - percussive grains werkelijk gesynchroniseerd, niet alleen zelfde tempo (hoe dan?)
 
 FEATURE/KLEIN
-- grain presets: default weg; supercontinuous toevoegen (veel overlappende lange grains)
-- met toetsen op midi keyboard de play/stop triggeren van de waveforms
+- ctrl widgets defaulten met oxygen25 defaults
+- grain presets: default weg; supercontinuous toevoegen (veel overlappende lange grains), sometimes (weinig lange)
 - delays: feed naar delay kunnen aan/uitzetten terwijl feedback door blijft gaan
+- monodelay time parameter filteren met line~? moet wel instelbaar zijn, geeft ander effect, geen tikjes meer
 - leuke palindrome bugs als optie houden
  - 1) detection fraction niet per waveform, maar geldig voor alle
  - 2) snel wisselen tussen heen&terug: tonen (zie palindrome_buggy_backup.maxpat)
@@ -37,5 +38,4 @@ FEATURE/KLEIN
 - presets voor reverb~?
 - presets voor random selectie
 - presets voor percussion
-- monodelay time parameter filteren met line~? moet wel instelbaar zijn, geeft ander effect, geen tikjes meer
 - in percussion nu aantal gelijktijdige samples instelbaar; mss instelbare kans toevoegen dat volgende geluid het vorige afkapt?

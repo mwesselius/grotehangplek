@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 861.0, 177.0, 391.0, 486.0 ],
+		"rect" : [ 671.0, 184.0, 416.0, 479.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 861.0, 177.0, 391.0, 486.0 ],
+		"defrect" : [ 671.0, 184.0, 416.0, 479.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -25,6 +25,18 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "set ctl number",
+					"id" : "obj-5",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 360.0, 30.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
@@ -394,13 +406,13 @@
 ,
 					"patching_rect" : [ 75.0, 210.0, 97.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p miditofrequency"
@@ -441,7 +453,7 @@
 					"id" : "obj-48",
 					"maxclass" : "bpatcher",
 					"name" : "midi_ctl_widget.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "", "int" ],
 					"patching_rect" : [ 135.0, 120.0, 40.0, 19.0 ],
@@ -942,6 +954,15 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 369.5, 98.0, 144.5, 98.0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}

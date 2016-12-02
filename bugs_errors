@@ -26,7 +26,6 @@ FEATURE/GROOT
 - percussive grains werkelijk gesynchroniseerd, niet alleen zelfde tempo (hoe dan?)
 
 FEATURE/KLEIN
-- ctrl widgets defaulten met oxygen25 defaults
 - grain presets: default weg; supercontinuous toevoegen (veel overlappende lange grains), sometimes (weinig lange)
 - delays: feed naar delay kunnen aan/uitzetten terwijl feedback door blijft gaan
 - monodelay time parameter filteren met line~? moet wel instelbaar zijn, geeft ander effect, geen tikjes meer

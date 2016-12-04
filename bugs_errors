@@ -12,6 +12,7 @@ BUGS/GROOT
 
 BUGS/KLEIN
 - matrix~ gebruiken om alle onderdelen te mixen; aan/uit led moet met delaymute zodat er geen tik te horen is en moet ook direct het delay signaal in die matrix~ uitzetten (nu hoor je de tik echoen)
+- waveform grains initialiseert niet met continuous preset (langere delay bij init?)
 
 FEATURE/GROOT
 - arpeggios!
@@ -26,7 +27,6 @@ FEATURE/GROOT
 - percussive grains werkelijk gesynchroniseerd, niet alleen zelfde tempo (hoe dan?)
 
 FEATURE/KLEIN
-- grain presets: default weg; supercontinuous toevoegen (veel overlappende lange grains), sometimes (weinig lange)
 - delays: feed naar delay kunnen aan/uitzetten terwijl feedback door blijft gaan
 - monodelay time parameter filteren met line~? moet wel instelbaar zijn, geeft ander effect, geen tikjes meer
 - leuke palindrome bugs als optie houden

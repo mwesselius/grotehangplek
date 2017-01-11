@@ -30,7 +30,6 @@ FEATURE/GROOT
 
 FEATURE/KLEIN
 - meer dingen aan dials kunnen koppelen: panning? delay feedback, volume?
-- sample in waveform laden door drag & drop vanuit finder
 - delays: feed naar delay kunnen aan/uitzetten terwijl feedback door blijft gaan
 - monodelay time parameter filteren met line~? moet wel instelbaar zijn, geeft ander effect, geen tikjes meer
 - leuke palindrome bugs als optie houden

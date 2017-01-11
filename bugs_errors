@@ -3,9 +3,6 @@ max 5 upgrade to max 7: $150, os x 10.7
 BUGS/GROOT
 - allerlei bugs random selectie:
  - crasht soms als je tijdens random selectie ook in waveform~ klikt om selectie te maken
- - area max lijkt niet lager te worden dan 7643 (dus werkt niet voor korte samples, daardoor werken ook de jumps niet)
- - selection length min en max moeten met rangelimit aan elkaar gekoppeld
- - area min en max lijken aan elkaar gekoppeld maar het klopt niet
  - area max moet nooit groter kunnen worden dan sample duration
  - selection length moet nooit groter kunnen worden dan sample duration
  - alle range parameters min en max moeten eigenlijk aan elkaar gekoppeld zijn; zelfgemaakte patch rangelimit gebruiken; 

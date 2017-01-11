@@ -1,7 +1,16 @@
 max 5 upgrade to max 7: $150, os x 10.7
 
 BUGS/GROOT
-- allerlei bugs random selectie; alle range parameters min en max moeten eigenlijk aan elkaar gekoppeld zijn; zelfgemaakte patch rangelimit gebruiken; hoeven niet drie number boxes voor elke parameter, 1 is genoeg
+- allerlei bugs random selectie:
+ - crasht soms als je tijdens random selectie ook in waveform~ klikt om selectie te maken
+ - area max lijkt niet lager te worden dan 7643 (dus werkt niet voor korte samples, daardoor werken ook de jumps niet)
+ - selection length min en max moeten met rangelimit aan elkaar gekoppeld
+ - area min en max lijken aan elkaar gekoppeld maar het klopt niet
+ - area max moet nooit groter kunnen worden dan sample duration
+ - selection length moet nooit groter kunnen worden dan sample duration
+ - alle range parameters min en max moeten eigenlijk aan elkaar gekoppeld zijn; zelfgemaakte patch rangelimit gebruiken; 
+- random selectie heeft teveel controls: hoeven niet drie number boxes voor elke parameter, 1 is genoeg
+- keep length werkt niet als je een selectie maakt in de waveform~ (als die selectie output triggert krijg je oneindige loop; lastig!)
 - play once werkt niet voor achteruit spelen (playback speed -1); zie testdelta~: https://cycling74.com/forums/topic/groove-wont-reverse-on-startloop/
 - palindrome werkt niet bij hoge playback speeds / korte selecties (betere waarde vinden voor de 'detectionfraction'?) delta~ gebruiken? of liefst geen detectionfraction gebruiken maar aandrijven dmv triangular signal (play~ ipv groove~?)
 - play once werkt niet voor hele korte selecties; voor evenredig hoge playback wel! delta~ gebruiken?
@@ -25,7 +34,6 @@ FEATURE/GROOT
 - tunedpercussion ook instrument labels (js)
 - losse applicatie om alle percussion samples te labelen; sampleloader gebruiken?
 - percussie: elk label aan/uit kunnen zetten met checkboxes (ipv eentje kiezen)
-- keep length moet beter werken (ingewikkeld)
 - percussive grains werkelijk gesynchroniseerd, niet alleen zelfde tempo (hoe dan?)
 
 FEATURE/KLEIN

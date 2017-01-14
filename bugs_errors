@@ -1,13 +1,12 @@
 max 5 upgrade to max 7: $150, os x 10.7
 
 BUGS/GROOT
-- allerlei bugs random selectie:
+- bugs random selectie:
  - crasht soms als je tijdens random selectie ook in waveform~ klikt om selectie te maken
- - area max moet nooit groter kunnen worden dan sample duration
- - selection length moet nooit groter kunnen worden dan sample duration
- - alle range parameters min en max moeten eigenlijk aan elkaar gekoppeld zijn; zelfgemaakte patch rangelimit gebruiken; 
+ - je kan de min alsnog groter krijgen dan de max ondanks rangelimit, door de max door z'n maximum heen 'duwen'
 - random selectie heeft teveel controls: hoeven niet drie number boxes voor elke parameter, 1 is genoeg
 - keep length werkt niet als je een selectie maakt in de waveform~ (als die selectie output triggert krijg je oneindige loop; lastig!)
+- start/end van manual selection moeten aan elkaar gekoppeld zijn met rangelimit
 - play once werkt niet voor achteruit spelen (playback speed -1); zie testdelta~: https://cycling74.com/forums/topic/groove-wont-reverse-on-startloop/
 - palindrome werkt niet bij hoge playback speeds / korte selecties (betere waarde vinden voor de 'detectionfraction'?) delta~ gebruiken? of liefst geen detectionfraction gebruiken maar aandrijven dmv triangular signal (play~ ipv groove~?)
 - play once werkt niet voor hele korte selecties; voor evenredig hoge playback wel! delta~ gebruiken?

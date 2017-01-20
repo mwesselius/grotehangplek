@@ -4,7 +4,6 @@ BUGS/GROOT
 - bugs random selectie:
  - crasht soms als je tijdens random selectie ook in waveform~ klikt om selectie te maken
  - je kan de min alsnog groter krijgen dan de max ondanks rangelimit, door de max door z'n maximum heen 'duwen'
-- random selectie heeft teveel controls: hoeven niet drie number boxes voor elke parameter, 1 is genoeg
 - keep length werkt niet als je een selectie maakt in de waveform~ (als die selectie output triggert krijg je oneindige loop; lastig!)
 - start/end van manual selection moeten aan elkaar gekoppeld zijn met rangelimit
 - play once werkt niet voor achteruit spelen (playback speed -1); zie testdelta~: https://cycling74.com/forums/topic/groove-wont-reverse-on-startloop/

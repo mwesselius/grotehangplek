@@ -34,7 +34,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2310.0, 285.0, 73.0, 19.0 ],
-					"text" : "loadmess 19"
+					"text" : "loadmess 91"
 				}
 
 			}
@@ -48,7 +48,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2040.0, 285.0, 73.0, 19.0 ],
-					"text" : "loadmess 18"
+					"text" : "loadmess 71"
 				}
 
 			}
@@ -62,7 +62,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1770.0, 285.0, 73.0, 19.0 ],
-					"text" : "loadmess 17"
+					"text" : "loadmess 74"
 				}
 
 			}
@@ -3489,17 +3489,17 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 555.0, 64.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"extensions" : 1,
 						"cantclosetoplevelpatchers" : 1,
-						"preffilename" : "Max 5 Preferences",
-						"midisupport" : 1,
-						"overdrive" : 0,
-						"searchformissingfiles" : 1,
-						"noloadbangdefeating" : 0,
-						"audiosupport" : 1,
-						"allwindowsactive" : 0,
 						"usesearchpath" : 1,
-						"statusvisible" : 1
+						"overdrive" : 0,
+						"preffilename" : "Max 5 Preferences",
+						"statusvisible" : 1,
+						"allwindowsactive" : 0,
+						"searchformissingfiles" : 1,
+						"midisupport" : 1,
+						"noloadbangdefeating" : 0,
+						"extensions" : 1,
+						"audiosupport" : 1
 					}
 ,
 					"text" : "standalone"
@@ -6770,7 +6770,7 @@
 					"patching_rect" : [ 765.0, 615.0, 27.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 447.0, 54.0, 27.0, 17.0 ],
-					"text" : "23"
+					"text" : "71"
 				}
 
 			}

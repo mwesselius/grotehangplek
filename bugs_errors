@@ -15,7 +15,8 @@ BUGS/GROOT
 - rare bugjes met loop palindrome; misschien juist wel leuk
 
 BUGS/KLEIN
-- reverb wet control geeft tikjes bij wijzigen
+- uitknop van waveform in grotehangplek zet niet de delays van die waveform uit
+- voor delay worden l en r eerst terug naar gemixt naar mono en dat wordt door de linker en rechter delay gefilterd, is dat goed?
 - veel parameters worden bij 'reset' niet gereset
 - matrix~ gebruiken om alle onderdelen te mixen; aan/uit led moet met delaymute zodat er geen tik te horen is en moet ook direct het delay signaal in die matrix~ uitzetten (nu hoor je de tik echoen)
 - waveform grains initialiseert niet met continuous preset (langere delay bij init?)
@@ -36,7 +37,6 @@ FEATURE/GROOT
 
 FEATURE/KLEIN
 - meer dingen aan dials kunnen koppelen: panning? delay feedback, volume?
-- delays: feed naar delay kunnen aan/uitzetten terwijl feedback door blijft gaan
 - delays: functies van links en rechts tegelijk triggeren (bv. on/off, feed, clear)
 - monodelay time parameter filteren met line~? moet wel instelbaar zijn, geeft ander effect, geen tikjes meer
 - feedback van delay meer exponentieel

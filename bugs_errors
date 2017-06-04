@@ -15,11 +15,15 @@ BUGS/GROOT
 - rare bugjes met loop palindrome; misschien juist wel leuk
 
 BUGS/KLEIN
+- reverb wet control geeft tikjes bij wijzigen
+- midi ctrl widget moet alleen getal zijn, dial eruit weghalen (bpatcher kleiner croppen)
+- veel parameters worden bij 'reset' niet gereset
 - matrix~ gebruiken om alle onderdelen te mixen; aan/uit led moet met delaymute zodat er geen tik te horen is en moet ook direct het delay signaal in die matrix~ uitzetten (nu hoor je de tik echoen)
 - waveform grains initialiseert niet met continuous preset (langere delay bij init?)
 
 FEATURE/GROOT
 - arpeggios!
+- serie acties (veranderingen van parameters) opnemen en afspelen
 - distortion-effect toevoegen?
 - lossesamples moeten alle .wav geluiden inladen die in de map staan onder de bv. 32 MB ipv vaste filenames
 - 4/5 ipv 3 waveforms?
@@ -34,11 +38,13 @@ FEATURE/GROOT
 FEATURE/KLEIN
 - meer dingen aan dials kunnen koppelen: panning? delay feedback, volume?
 - delays: feed naar delay kunnen aan/uitzetten terwijl feedback door blijft gaan
+- delays: functies van links en rechts tegelijk triggeren (bv. on/off, feed, clear)
 - monodelay time parameter filteren met line~? moet wel instelbaar zijn, geeft ander effect, geen tikjes meer
+- feedback van delay meer exponentieel
 - leuke palindrome bugs als optie houden
  - 1) detection fraction niet per waveform, maar geldig voor alle
  - 2) snel wisselen tussen heen&terug: tonen (zie palindrome_buggy_backup.maxpat)
-- naast 'save current contents' ook 'save current selection'
+- naast 'save current contents' ook 'save current selection'; direct in samplesimple laden?
 - eigen init(=reset) voor percussie (upinit en tpinit?), eigen reset-knop
 - presets voor reverb~?
 - presets voor random selectie

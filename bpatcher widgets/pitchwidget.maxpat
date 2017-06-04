@@ -450,12 +450,12 @@
 					"id" : "obj-119",
 					"maxclass" : "bpatcher",
 					"name" : "midi_ctl_widget.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "", "int" ],
 					"patching_rect" : [ 330.0, 420.0, 42.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 251.0, 0.0, 41.0, 20.0 ]
+					"presentation_rect" : [ 260.0, 1.0, 20.0, 20.0 ]
 				}
 
 			}

@@ -16,7 +16,6 @@ BUGS/GROOT
 
 BUGS/KLEIN
 - reverb wet control geeft tikjes bij wijzigen
-- midi ctrl widget moet alleen getal zijn, dial eruit weghalen (bpatcher kleiner croppen)
 - veel parameters worden bij 'reset' niet gereset
 - matrix~ gebruiken om alle onderdelen te mixen; aan/uit led moet met delaymute zodat er geen tik te horen is en moet ook direct het delay signaal in die matrix~ uitzetten (nu hoor je de tik echoen)
 - waveform grains initialiseert niet met continuous preset (langere delay bij init?)

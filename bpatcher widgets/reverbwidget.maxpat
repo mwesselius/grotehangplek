@@ -34,7 +34,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 105.0, 150.0, 47.0, 19.0 ],
-					"presentation_rect" : [ 110.0, 147.0, 0.0, 0.0 ],
 					"text" : "altreset"
 				}
 
@@ -49,7 +48,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 195.0, 150.0, 47.0, 19.0 ],
-					"presentation_rect" : [ 198.0, 148.0, 0.0, 0.0 ],
 					"text" : "altreset"
 				}
 
@@ -102,12 +100,12 @@
 					"id" : "obj-48",
 					"maxclass" : "bpatcher",
 					"name" : "midi_ctl_widget.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "", "int" ],
 					"patching_rect" : [ 285.0, 90.0, 40.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.0, 41.0, 41.0, 19.0 ]
+					"presentation_rect" : [ 78.0, 40.0, 20.0, 19.0 ]
 				}
 
 			}

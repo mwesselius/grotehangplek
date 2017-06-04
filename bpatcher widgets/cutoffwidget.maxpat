@@ -406,13 +406,13 @@
 ,
 					"patching_rect" : [ 75.0, 210.0, 97.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"fontface" : 0,
+						"default_fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p miditofrequency"
@@ -458,7 +458,7 @@
 					"outlettype" : [ "float", "", "int" ],
 					"patching_rect" : [ 135.0, 120.0, 40.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 41.0, 41.0, 19.0 ]
+					"presentation_rect" : [ 24.0, 40.0, 20.0, 19.0 ]
 				}
 
 			}

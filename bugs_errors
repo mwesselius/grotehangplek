@@ -37,13 +37,13 @@ FEATURE/GROOT
 
 FEATURE/KLEIN
 - meer dingen aan dials kunnen koppelen: panning? delay feedback, volume?
-- delays: functies van links en rechts tegelijk triggeren (bv. on/off, feed, clear)
 - monodelay time parameter filteren met line~? moet wel instelbaar zijn, geeft ander effect, geen tikjes meer
 - feedback van delay meer exponentieel
 - leuke palindrome bugs als optie houden
  - 1) detection fraction niet per waveform, maar geldig voor alle
  - 2) snel wisselen tussen heen&terug: tonen (zie palindrome_buggy_backup.maxpat)
 - naast 'save current contents' ook 'save current selection'; direct in samplesimple laden?
+- 'remember selection': zoals cues in virtualdj, paar opgeslagen selectieranges die je kan terughalen en/of direct afspelen
 - eigen init(=reset) voor percussie (upinit en tpinit?), eigen reset-knop
 - presets voor reverb~?
 - presets voor random selectie

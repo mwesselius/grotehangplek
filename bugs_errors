@@ -15,18 +15,18 @@ BUGS/GROOT
 - rare bugjes met loop palindrome; misschien juist wel leuk
 
 BUGS/KLEIN
-- uitknop van waveform in grotehangplek zet niet de delays van die waveform uit
-- voor delay worden l en r eerst terug naar gemixt naar mono en dat wordt door de linker en rechter delay gefilterd, is dat goed?
+- voor delay worden l en r eerst terug gemixt naar mono en dat wordt door de linker en rechter delay gefilterd - gewenst of niet?
 - veel parameters worden bij 'reset' niet gereset
-- matrix~ gebruiken om alle onderdelen te mixen; aan/uit led moet met delaymute zodat er geen tik te horen is en moet ook direct het delay signaal in die matrix~ uitzetten (nu hoor je de tik echoen)
+- matrix~ gebruiken om alle onderdelen te mixen; aan/uit led moet met delaymute zodat er geen tik te horen is
 - waveform grains initialiseert niet met continuous preset (langere delay bij init?)
 
 FEATURE/GROOT
 - arpeggios!
-- serie acties (veranderingen van parameters) opnemen en afspelen
+- serie acties (veranderingen van parameters) opnemen en afspelen!
 - distortion-effect toevoegen?
 - lossesamples moeten alle .wav geluiden inladen die in de map staan onder de bv. 32 MB ipv vaste filenames
 - 4/5 ipv 3 waveforms?
+- niet-waveforms eruit halen? of verbergen?
 - andere 'speelmodus' voor waveform: noteon triggert play (noteoff triggers stop) en bepaalt pitch; polyfoon maken wordt lastig, met mono beginnen? ADSR maken? echte sampler
 - serie 'acties'/pattern kunnen opnemen en afspelen/loopen, soort automation
 - pulsemetro vervangen door transport… dan geen beat value meer? groove~ kan ook transport gebruiken om loops te syncen
@@ -36,6 +36,7 @@ FEATURE/GROOT
 - percussive grains werkelijk gesynchroniseerd, niet alleen zelfde tempo (hoe dan?)
 
 FEATURE/KLEIN
+- grain randomness twee cijfers achter komma (of zelfs 3?)
 - meer dingen aan dials kunnen koppelen: panning? delay feedback, volume?
 - monodelay time parameter filteren met line~? moet wel instelbaar zijn, geeft ander effect, geen tikjes meer
 - feedback van delay meer exponentieel

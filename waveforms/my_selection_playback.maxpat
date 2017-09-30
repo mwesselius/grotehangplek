@@ -34,7 +34,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1020.0, 390.0, 142.0, 44.0 ],
-					"presentation_rect" : [ 1019.0, 395.0, 0.0, 0.0 ],
 					"text" : "all objects not registered for the presets are connected to the 3rd outlet"
 				}
 
@@ -393,13 +392,13 @@
 ,
 					"patching_rect" : [ 135.0, 75.0, 60.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p reverser"
@@ -1781,7 +1780,7 @@
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 720.0, 120.0, 35.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2049.0, 80.0, 35.0, 20.0 ],
+					"presentation_rect" : [ 2049.0, 80.0, 47.0, 20.0 ],
 					"triscale" : 0.9
 				}
 

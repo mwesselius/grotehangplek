@@ -35,7 +35,6 @@ FEATURE/GROOT
 - percussive grains werkelijk gesynchroniseerd, niet alleen zelfde tempo (hoe dan?)
 
 FEATURE/KLEIN
-- grains percussive: default dispersion (150) overeen laten komen met default tempo (100)
 - meer dingen aan dials kunnen koppelen: panning? delay feedback, volume?
 - monodelay time parameter filteren met line~? moet wel instelbaar zijn, geeft ander effect, geen tikjes meer
 - leuke palindrome bugs als optie houden

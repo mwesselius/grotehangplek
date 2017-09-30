@@ -21,18 +21,12 @@ BUGS/KLEIN
 
 FEATURE/GROOT
 - arpeggios!
-- serie acties (veranderingen van parameters) opnemen en afspelen!
+- serie 'acties'/pattern kunnen opnemen en afspelen/loopen, soort automation
 - distortion-effect toevoegen?
-- lossesamples moeten alle .wav geluiden inladen die in de map staan onder de bv. 32 MB ipv vaste filenames
 - 4/5 ipv 3 waveforms?
 - niet-waveforms eruit halen? of verbergen?
 - andere 'speelmodus' voor waveform: noteon triggert play (noteoff triggers stop) en bepaalt pitch; polyfoon maken wordt lastig, met mono beginnen? ADSR maken? echte sampler
-- serie 'acties'/pattern kunnen opnemen en afspelen/loopen, soort automation
 - pulsemetro vervangen door transport… dan geen beat value meer? groove~ kan ook transport gebruiken om loops te syncen
-- tunedpercussion ook instrument labels (js)
-- losse applicatie om alle percussion samples te labelen; sampleloader gebruiken?
-- percussie: elk label aan/uit kunnen zetten met checkboxes (ipv eentje kiezen)
-- percussive grains werkelijk gesynchroniseerd, niet alleen zelfde tempo (hoe dan?)
 
 FEATURE/KLEIN
 - meer dingen aan dials kunnen koppelen: panning? delay feedback, volume?
@@ -42,8 +36,26 @@ FEATURE/KLEIN
  - 2) snel wisselen tussen heen&terug: tonen (zie palindrome_buggy_backup.maxpat)
 - naast 'save current contents' ook 'save current selection'; direct in samplesimple laden?
 - 'remember selection': zoals cues in virtualdj, paar opgeslagen selectieranges die je kan terughalen en/of direct afspelen
-- eigen init(=reset) voor percussie (upinit en tpinit?), eigen reset-knop
 - presets voor reverb~?
 - presets voor random selectie
+
+
+NIET OVER WAVEFORMS
+
+BUGS/GROOT
+-
+
+BUGS/KLEIN
+-
+
+FEATURE/GROOT
+- lossesamples moeten alle .wav geluiden inladen die in de map staan onder de bv. 32 MB ipv vaste filenames
+- tunedpercussion ook instrument labels (js)
+- losse applicatie om alle percussion samples te labelen; sampleloader gebruiken?
+- percussie: elk label aan/uit kunnen zetten met checkboxes (ipv eentje kiezen)
+- percussive grains werkelijk gesynchroniseerd, niet alleen zelfde tempo (hoe dan?)
+
+FEATURE/KLEIN
+- eigen init(=reset) voor percussie (upinit en tpinit?), eigen reset-knop
 - presets voor percussion
 - in percussion nu aantal gelijktijdige samples instelbaar; mss instelbare kans toevoegen dat volgende geluid het vorige afkapt?

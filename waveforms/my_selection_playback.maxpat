@@ -28,6 +28,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
+					"id" : "obj-52",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 435.0, 330.0, 44.0, 19.0 ],
+					"text" : "r #1init"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
 					"id" : "obj-56",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -141,12 +155,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"id" : "obj-45",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"maxclass" : "message",
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 435.0, 360.0, 67.0, 19.0 ],
-					"text" : "loadmess 0"
+					"patching_rect" : [ 435.0, 360.0, 32.5, 17.0 ],
+					"text" : "0"
 				}
 
 			}
@@ -392,13 +406,13 @@
 ,
 					"patching_rect" : [ 135.0, 75.0, 60.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p reverser"
@@ -2625,7 +2639,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 2064.5, 136.5, 1899.5, 136.5 ],
+					"midpoints" : [ 2064.5, 137.5, 1899.5, 137.5 ],
 					"source" : [ "obj-204", 0 ]
 				}
 
@@ -2635,6 +2649,15 @@
 					"destination" : [ "obj-206", 0 ],
 					"hidden" : 0,
 					"midpoints" : [ 2064.5, 136.5, 2064.5, 136.5 ],
+					"source" : [ "obj-204", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 2064.5, 137.0, 1988.0, 137.0, 1988.0, 228.0, 1912.5, 228.0 ],
 					"source" : [ "obj-204", 0 ]
 				}
 
@@ -3068,6 +3091,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 384.5, 384.0, 444.5, 384.0 ],
 					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-52", 0 ]
 				}
 
 			}

@@ -26,6 +26,36 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 345.0, 30.0, 44.0, 19.0 ],
+					"presentation_rect" : [ 349.0, 11.0, 0.0, 0.0 ],
+					"text" : "r #1init"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-19",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 345.0, 60.0, 22.0, 17.0 ],
+					"presentation_rect" : [ 349.0, 41.0, 0.0, 0.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [  ],
 					"id" : "obj-38",
 					"maxclass" : "bpatcher",
@@ -500,13 +530,13 @@
 ,
 									"patching_rect" : [ 90.0, 210.0, 94.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"fontface" : 0,
-										"globalpatchername" : "",
-										"fontsize" : 12.0
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p preventlowbpm"
@@ -672,13 +702,13 @@
 ,
 					"patching_rect" : [ 450.0, 255.0, 84.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 11.0,
+						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 11.0,
-						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 11.0
+						"default_fontsize" : 11.0
 					}
 ,
 					"text" : "p calculatebpm"
@@ -1233,7 +1263,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 180.0, 255.0, 45.0, 19.0 ],
-									"presentation_rect" : [ 183.0, 257.0, 0.0, 0.0 ],
 									"text" : "right"
 								}
 
@@ -1247,7 +1276,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 660.0, 30.0, 88.0, 19.0 ],
-									"presentation_rect" : [ 820.0, 27.0, 0.0, 0.0 ],
 									"text" : "sel. length limits"
 								}
 
@@ -1301,7 +1329,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 45.0, 255.0, 45.0, 19.0 ],
-									"presentation_rect" : [ 59.0, 251.0, 0.0, 0.0 ],
 									"text" : "middle"
 								}
 
@@ -1412,8 +1439,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 195.0, 30.0, 25.0, 25.0 ],
-													"presentation_rect" : [ 385.0, 29.0, 0.0, 0.0 ]
+													"patching_rect" : [ 195.0, 30.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -1425,8 +1451,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 165.0, 30.0, 25.0, 25.0 ],
-													"presentation_rect" : [ 340.0, 29.0, 0.0, 0.0 ]
+													"patching_rect" : [ 165.0, 30.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -1992,13 +2017,13 @@
 ,
 									"patching_rect" : [ 390.0, 375.0, 183.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"fontface" : 0,
-										"globalpatchername" : "",
-										"fontsize" : 12.0
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p generate_new_selection_position"
@@ -2586,13 +2611,13 @@
 ,
 									"patching_rect" : [ 645.0, 375.0, 175.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"fontface" : 0,
+										"fontsize" : 11.0,
+										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"default_fontsize" : 11.0,
-										"fontface" : 0,
-										"globalpatchername" : "",
-										"fontsize" : 11.0
+										"default_fontsize" : 11.0
 									}
 ,
 									"text" : "p generate_new_selection_length"
@@ -3347,13 +3372,13 @@
 ,
 					"patching_rect" : [ 795.0, 465.0, 249.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 11.0,
+						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 11.0,
-						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 11.0
+						"default_fontsize" : 11.0
 					}
 ,
 					"text" : "patcher randomselection"
@@ -4307,13 +4332,13 @@
 ,
 									"patching_rect" : [ 240.0, 270.0, 79.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"fontface" : 0,
+										"fontsize" : 11.0,
+										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"default_fontsize" : 11.0,
-										"fontface" : 0,
-										"globalpatchername" : "",
-										"fontsize" : 11.0
+										"default_fontsize" : 11.0
 									}
 ,
 									"text" : "p keeplength"
@@ -4950,13 +4975,13 @@
 ,
 									"patching_rect" : [ 75.0, 270.0, 86.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"fontface" : 0,
-										"globalpatchername" : "",
-										"fontsize" : 12.0
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p changelength"
@@ -5426,13 +5451,13 @@
 ,
 					"patching_rect" : [ 75.0, 450.0, 154.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 11.0,
+						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 11.0,
-						"fontface" : 0,
-						"globalpatchername" : "",
-						"fontsize" : 11.0
+						"default_fontsize" : 11.0
 					}
 ,
 					"text" : "patcher manualselection"
@@ -5841,6 +5866,24 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}

@@ -218,7 +218,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 390.0, 240.0, 46.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 139.0, 1.0, 49.0, 17.0 ],
+					"presentation_rect" : [ 126.0, 0.0, 49.0, 17.0 ],
 					"text" : "re-freeze"
 				}
 
@@ -232,7 +232,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 375.0, 240.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 139.0, 17.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 125.0, 17.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -369,7 +369,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 510.0, 255.0, 18.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 111.0, 18.0, 18.0, 18.0 ]
+					"presentation_rect" : [ 105.0, 18.0, 18.0, 18.0 ]
 				}
 
 			}
@@ -776,7 +776,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 525.0, 255.0, 36.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 107.0, 0.0, 36.0, 17.0 ],
+					"presentation_rect" : [ 98.0, 0.0, 36.0, 17.0 ],
 					"text" : "freeze"
 				}
 

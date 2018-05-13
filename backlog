@@ -14,7 +14,7 @@ BUGS/GROOT
 - grainbuffer past zich aan aan sampling rate van msp, niet aan sampling rate van de buffer; bij hoge sampling rate laag geluid, bij 44.1 soms te hoog geluid. Nieuwste versie grainbuffer~ heeft het ook. Grain frequency kwaliteit gaat trouwens omhoog met de msp sampling rate!
 
 BUGS/KLEIN
-- bendin bend vanaf noot die laatst gespeeld is met midi; niet vanaf noot die direct in 'pitch' number box is ingevoerd
+- bendin en finetune werken op de noten die laatst gespeeld zijn met midi; niet vanaf noot die direct in 'pitch' number box is ingevoerd; pitch number box geeft resultaat weer van alles behalve slide. verwarrend, maar hoe moet het dan wel werken?
 - teleport to sample werkt nu raar; soms geen geluid, soms start ie geluid terwijl play uit staat
 - waveform grains initialiseert niet met continuous preset (langere delay bij init?)
 - voor delay worden l en r eerst terug gemixt naar mono en dat wordt door de linker en rechter delay gefilterd - gewenst of niet?
@@ -33,10 +33,9 @@ FEATURE/GROOT
 
 FEATURE/KLEIN
 - input1 en input2 worden nu standaard opgenomen, misschien dit uit kunnen zetten per inputkanaal - kan het kwaad? disk access, crashes?
-- finetune moet niet een offset zijn voor pitch multiplier maar voor midi note; moet ook negatief kunnen; liefst ook in cents
 - in iedere waveform kunnen schakelen tussen buffer 1, 2 en 3
 - ook bendin kunnen testen in MIDI dashboard
-- pitchwidget: glide ook laten werken voor playback rate
+- pitchwidget: glide ook laten werken voor playback rate en grain pitch (lastig: voor of na number box?)
 - ook een hi-pass filter (togglen)
 - meer dingen aan dials kunnen koppelen: panning? delay feedback, volume?
 - monodelay time parameter filteren met line~? moet wel instelbaar zijn, geeft ander effect, geen tikjes meer

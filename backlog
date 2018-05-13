@@ -34,7 +34,6 @@ FEATURE/GROOT
 FEATURE/KLEIN
 - input1 en input2 worden nu standaard opgenomen, misschien dit uit kunnen zetten per inputkanaal - kan het kwaad? disk access, crashes?
 - in iedere waveform kunnen schakelen tussen buffer 1, 2 en 3
-- ook bendin kunnen testen in MIDI dashboard
 - pitchwidget: glide ook laten werken voor playback rate en grain pitch (lastig: voor of na number box?)
 - ook een hi-pass filter (togglen)
 - meer dingen aan dials kunnen koppelen: panning? delay feedback, volume?

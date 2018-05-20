@@ -1,5 +1,5 @@
 // inlet 1: list of note numbers
-// inlet 2: number of extra octaves (0 means no change)
+// inlet 2: "setOctaveCount" + number of extra octaves (0 means no change)
 inlets = 2;
 
 // outlet 1: messages to sampleloader
@@ -17,7 +17,10 @@ function setOctaveCount(n)
 	{
 		duplicateCount = n;
 		//println("duplicateCount set to " + n);
-		createList();
+		if (lijst != undefined)
+		{
+			createList();
+		}
 	}
 	else	
 	{
@@ -53,5 +56,5 @@ function createList()
 
 function println(s)
 {
-	post("arepggioctaver: " + s + "\n");
+	post("arpeggioctaver: " + s + "\n");
 }

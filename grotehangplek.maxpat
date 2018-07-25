@@ -534,11 +534,11 @@
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"default_fontface" : 0,
 						"fontsize" : 11.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 11.0,
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 11.0
 					}
 ,
 					"text" : "p recordinputsdry"
@@ -2131,11 +2131,11 @@
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"default_fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p overview"
@@ -2659,11 +2659,11 @@
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"default_fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p taptempo"
@@ -2897,11 +2897,11 @@
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"default_fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p setwindow"
@@ -3388,17 +3388,17 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 555.0, 64.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"midisupport" : 1,
-						"allwindowsactive" : 0,
-						"preffilename" : "Max 5 Preferences",
-						"statusvisible" : 1,
-						"extensions" : 1,
-						"overdrive" : 0,
-						"cantclosetoplevelpatchers" : 1,
-						"noloadbangdefeating" : 0,
-						"searchformissingfiles" : 1,
 						"usesearchpath" : 1,
-						"audiosupport" : 1
+						"statusvisible" : 1,
+						"overdrive" : 0,
+						"extensions" : 1,
+						"audiosupport" : 1,
+						"allwindowsactive" : 0,
+						"searchformissingfiles" : 1,
+						"cantclosetoplevelpatchers" : 1,
+						"preffilename" : "Max 5 Preferences",
+						"noloadbangdefeating" : 0,
+						"midisupport" : 1
 					}
 ,
 					"text" : "standalone"
@@ -3460,8 +3460,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2010.0, 225.0, 78.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.0, 401.0, 58.0, 20.0 ],
-					"text" : "live input"
+					"presentation_rect" : [ 25.0, 401.0, 41.607677, 20.0 ],
+					"text" : "direct"
 				}
 
 			}
@@ -4540,11 +4540,11 @@
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"default_fontface" : 0,
 						"fontsize" : 11.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 11.0,
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 11.0
 					}
 ,
 					"text" : "p shortcuts"
@@ -5638,7 +5638,7 @@
 					"patching_rect" : [ 765.0, 630.0, 27.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 449.0, 84.0, 27.0, 17.0 ],
-					"text" : "63"
+					"text" : "65"
 				}
 
 			}
@@ -5654,7 +5654,7 @@
 					"patching_rect" : [ 765.0, 615.0, 27.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 449.0, 65.0, 27.0, 17.0 ],
-					"text" : "71"
+					"text" : "72"
 				}
 
 			}
@@ -6973,11 +6973,11 @@
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"default_fontface" : 0,
 						"fontsize" : 11.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 11.0,
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 11.0
 					}
 ,
 					"text" : "p keypresses"
@@ -7231,9 +7231,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1965.0, 105.0, 55.0, 21.0 ],
+					"patching_rect" : [ 1965.0, 105.0, 86.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.0, 401.0, 55.0, 21.0 ]
+					"presentation_rect" : [ 75.0, 401.0, 81.910728, 21.0 ]
 				}
 
 			}

@@ -15,9 +15,9 @@ BUGS/GROOT
 - grainbuffer past zich aan aan sampling rate van msp, niet aan sampling rate van de buffer; bij hoge sampling rate laag geluid, bij 44.1 soms te hoog geluid. Nieuwste versie grainbuffer~ heeft het ook. Grain frequency kwaliteit gaat trouwens omhoog met de msp sampling rate!
 
 BUGS/KLEIN
-- soms alleen geluid in linkerkanaal bij buffer. wordt verholpen door te switchen tussen sample en buffer
+- soms alleen geluid in linkerkanaal bij buffer. wordt verholpen door te switchen tussen sample en buffer (nog niet kunnen reproduceren)
 - problemen met de 'keep' selection length; werkt alleen goed als je zelf getal invoert in number box en dan op keep klikt; anders wordt length 0 als je start/end aanpast als keep aan staat
-- teleport to sample werkt nu raar; soms geen geluid, soms start ie geluid terwijl play uit staat
+- teleport to sample werkt nu raar; soms geen geluid, soms start ie geluid terwijl play uit staat (nog niet kunnen reproduceren)
 - waveform grains initialiseert niet met continuous preset (langere delay bij init?)
 - voor delay worden l en r eerst terug gemixt naar mono en dat wordt door de linker en rechter delay gefilterd - gewenst of niet?
 - matrix~ gebruiken om alle onderdelen te mixen; aan/uit led moet met delaymute zodat er geen tik te horen is
@@ -32,7 +32,6 @@ FEATURE/GROOT
 - 'remember selection': zoals cues in virtualdj, paar opgeslagen selectieranges die je kan terughalen en/of direct afspelen
 
 FEATURE/KLEIN
-- met een toets (tab?) wisselen tussen sample en buffer (nu vrij lastig klikbaar)
 - selecteer radio buttons ook door te klikken op hun label etc.
 - arpeggios add random-without-repetition pattern
 - input1 en input2 worden nu standaard opgenomen, misschien dit uit kunnen zetten per inputkanaal - kan het kwaad? disk access, crashes?

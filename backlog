@@ -33,7 +33,6 @@ FEATURE/GROOT
 
 FEATURE/KLEIN
 - pander: auto random walk pan aanzetten rond center
-- travelling ook kunnen aansturen met dial (binnen selectiegrenzen)
 - selecteer radio buttons ook door te klikken op hun label etc.
 - arpeggios add random-without-repetition pattern
 - input1 en input2 worden nu standaard opgenomen, misschien dit uit kunnen zetten per inputkanaal - kan het kwaad? disk access, crashes?

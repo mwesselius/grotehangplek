@@ -32,6 +32,9 @@ FEATURE/GROOT
 - 'remember selection': zoals cues in virtualdj, paar opgeslagen selectieranges die je kan terughalen en/of direct afspelen
 
 FEATURE/KLEIN
+- wachtperiode bij spasticity onderbreken als je van een lange periode ineens naar een heel korte periode overschakelt
+- pander: auto random walk pan aanzetten rond center
+- travelling ook kunnen aansturen met dial (binnen selectiegrenzen)
 - selecteer radio buttons ook door te klikken op hun label etc.
 - arpeggios add random-without-repetition pattern
 - input1 en input2 worden nu standaard opgenomen, misschien dit uit kunnen zetten per inputkanaal - kan het kwaad? disk access, crashes?

@@ -34,6 +34,9 @@ FEATURE/GROOT
 FEATURE/KLEIN
 - pander: auto random walk pan aanzetten rond center
 - selecteer radio buttons ook door te klikken op hun label etc.
+- koppeling midi ctl met dial ook weer uit kunnen zetten
+- delays standaard aan, en checkbox uit? slecht voor performance?
+- hear original op direct input standaard aan?
 - arpeggios add random-without-repetition pattern
 - input1 en input2 worden nu standaard opgenomen, misschien dit uit kunnen zetten per inputkanaal - kan het kwaad? disk access, crashes?
 - in iedere waveform kunnen schakelen tussen buffer 1, 2 en 3

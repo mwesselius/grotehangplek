@@ -1651,7 +1651,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1890.0, 405.0, 66.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1020.0, 15.0, 110.822372, 20.0 ],
+					"presentation_rect" : [ 1020.0, 15.0, 111.0, 20.0 ],
 					"text" : "go to position (ms):"
 				}
 
@@ -1966,7 +1966,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 285.0, 120.0, 18.0, 62.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 15.0, 18.0, 62.0 ],
+					"presentation_rect" : [ 0.0, 15.0, 112.0, 62.0 ],
 					"size" : 3,
 					"value" : 0
 				}

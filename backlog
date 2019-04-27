@@ -33,7 +33,6 @@ FEATURE/GROOT
 
 FEATURE/KLEIN
 - pander: auto random walk pan aanzetten rond center
-- selecteer radio buttons ook door te klikken op hun label etc.
 - koppeling midi ctl met dial ook weer uit kunnen zetten
 - delays standaard aan, en checkbox uit? slecht voor performance?
 - hear original op direct input standaard aan?

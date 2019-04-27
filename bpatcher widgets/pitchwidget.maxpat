@@ -453,12 +453,12 @@
 					"patching_rect" : [ 465.0, 225.0, 73.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"globalpatchername" : ""
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p bendwheel"
@@ -1031,12 +1031,12 @@
 									"patching_rect" : [ 105.0, 405.0, 79.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"fontface" : 0,
-										"default_fontname" : "Arial",
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
-										"fontname" : "Arial",
 										"default_fontface" : 0,
-										"globalpatchername" : ""
+										"default_fontname" : "Arial",
+										"globalpatchername" : "",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p notelookup"
@@ -1577,12 +1577,12 @@
 					"patching_rect" : [ 120.0, 270.0, 64.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"globalpatchername" : ""
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p arpeggio"
@@ -2001,9 +2001,9 @@
 					"numoutlets" : 1,
 					"offset" : 15,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 390.0, 18.0, 77.0 ],
+					"patching_rect" : [ 30.0, 390.0, 19.0, 77.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 4.0, 18.0, 77.0 ],
+					"presentation_rect" : [ 0.0, 4.0, 83.0, 77.0 ],
 					"size" : 5,
 					"value" : 1
 				}

@@ -32,7 +32,6 @@ FEATURE/GROOT
 - 'remember selection': zoals cues in virtualdj, paar opgeslagen selectieranges die je kan terughalen en/of direct afspelen
 
 FEATURE/KLEIN
-- pander: auto random walk pan aanzetten rond center
 - koppeling midi ctl met dial ook weer uit kunnen zetten
 - delays standaard aan, en checkbox uit? slecht voor performance?
 - hear original op direct input standaard aan?

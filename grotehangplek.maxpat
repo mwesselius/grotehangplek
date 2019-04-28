@@ -532,13 +532,13 @@
 ,
 					"patching_rect" : [ 840.0, 405.0, 95.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 11.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 11.0,
-						"default_fontsize" : 11.0
+						"fontsize" : 11.0
 					}
 ,
 					"text" : "p recordinputsdry"
@@ -2129,13 +2129,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 528.0, 164.0, 63.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p overview"
@@ -2657,13 +2657,13 @@
 ,
 					"patching_rect" : [ 435.0, 300.0, 66.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p taptempo"
@@ -2895,13 +2895,13 @@
 ,
 					"patching_rect" : [ 30.0, 330.0, 71.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p setwindow"
@@ -2918,7 +2918,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 465.0, 640.0, 35.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 416.0, 555.0, 37.0, 19.0 ],
+					"presentation_rect" : [ 431.0, 555.0, 37.0, 19.0 ],
 					"text" : "...nul"
 				}
 
@@ -2933,7 +2933,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 466.0, 630.0, 35.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 405.0, 540.0, 34.0, 19.0 ],
+					"presentation_rect" : [ 420.0, 540.0, 34.0, 19.0 ],
 					"text" : "punt"
 				}
 
@@ -2948,7 +2948,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 465.0, 615.0, 35.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 397.0, 525.0, 29.0, 19.0 ],
+					"presentation_rect" : [ 412.0, 525.0, 29.0, 19.0 ],
 					"text" : "vier"
 				}
 
@@ -3388,17 +3388,17 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 555.0, 64.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"searchformissingfiles" : 1,
-						"overdrive" : 0,
-						"allwindowsactive" : 0,
-						"cantclosetoplevelpatchers" : 1,
-						"extensions" : 1,
 						"usesearchpath" : 1,
-						"preffilename" : "Max 5 Preferences",
-						"statusvisible" : 1,
-						"noloadbangdefeating" : 0,
 						"audiosupport" : 1,
-						"midisupport" : 1
+						"extensions" : 1,
+						"allwindowsactive" : 0,
+						"midisupport" : 1,
+						"overdrive" : 0,
+						"cantclosetoplevelpatchers" : 1,
+						"statusvisible" : 1,
+						"preffilename" : "Max 5 Preferences",
+						"searchformissingfiles" : 1,
+						"noloadbangdefeating" : 0
 					}
 ,
 					"text" : "standalone"
@@ -3493,7 +3493,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1965.0, 210.0, 29.0, 46.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.0, 574.0, 29.0, 46.0 ]
+					"presentation_rect" : [ 189.0, 574.0, 60.0, 46.0 ]
 				}
 
 			}
@@ -3602,7 +3602,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 75.0, 165.0, 162.0, 19.0 ],
-									"presentation_rect" : [ 74.0, 171.0, 0.0, 0.0 ],
 									"text" : "toggle between sample / buffer"
 								}
 
@@ -3616,7 +3615,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 56.0, 165.0, 18.0, 19.0 ],
-									"presentation_rect" : [ 55.0, 171.0, 0.0, 0.0 ],
 									"text" : "-"
 								}
 
@@ -3630,7 +3628,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 165.0, 43.0, 19.0 ],
-									"presentation_rect" : [ 14.0, 171.0, 0.0, 0.0 ],
 									"text" : "t"
 								}
 
@@ -4580,13 +4577,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 599.0, 164.0, 64.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 11.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 11.0,
-						"default_fontsize" : 11.0
+						"fontsize" : 11.0
 					}
 ,
 					"text" : "p shortcuts"
@@ -4793,7 +4790,7 @@
 					"patching_rect" : [ 255.0, 570.0, 213.0, 92.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 246.0, 541.0, 199.0, 92.0 ],
+					"presentation_rect" : [ 261.0, 541.0, 199.0, 92.0 ],
 					"text" : "Grote Hangplek"
 				}
 
@@ -4996,7 +4993,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1680.0, 345.0, 29.0, 46.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 630.0, 315.0, 29.0, 46.0 ]
+					"presentation_rect" : [ 630.0, 315.0, 60.0, 46.0 ]
 				}
 
 			}
@@ -5096,7 +5093,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1410.0, 345.0, 29.0, 46.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 405.0, 315.0, 29.0, 46.0 ]
+					"presentation_rect" : [ 405.0, 315.0, 60.039467, 46.0 ]
 				}
 
 			}
@@ -5196,7 +5193,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1140.0, 345.0, 29.0, 46.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 315.0, 29.0, 46.0 ]
+					"presentation_rect" : [ 180.0, 315.0, 60.655258, 46.0 ]
 				}
 
 			}
@@ -5680,7 +5677,7 @@
 					"patching_rect" : [ 765.0, 630.0, 27.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 449.0, 84.0, 27.0, 17.0 ],
-					"text" : "65"
+					"text" : "60"
 				}
 
 			}
@@ -5696,7 +5693,7 @@
 					"patching_rect" : [ 765.0, 615.0, 27.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 449.0, 65.0, 27.0, 17.0 ],
-					"text" : "84"
+					"text" : "113"
 				}
 
 			}
@@ -7013,13 +7010,13 @@
 ,
 					"patching_rect" : [ 330.0, 180.0, 79.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 11.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 11.0,
-						"default_fontsize" : 11.0
+						"fontsize" : 11.0
 					}
 ,
 					"text" : "p keypresses"

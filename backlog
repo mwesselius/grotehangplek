@@ -40,7 +40,6 @@ FEATURE/KLEIN
 - delays standaard aan, en checkbox uit? slecht voor performance?
 - hear original op direct input standaard aan?
 - meer presets voor grains: randominder, sometimesemitemos, layers
-- arpeggios add random-without-repetition pattern
 - input1 en input2 worden nu standaard opgenomen, misschien dit uit kunnen zetten per inputkanaal - kan het kwaad? disk access, crashes?
 - in iedere waveform kunnen schakelen tussen buffer 1, 2 en 3
 - pitchwidget: glide ook laten werken voor playback rate en grain pitch (lastig: voor of na number box?)

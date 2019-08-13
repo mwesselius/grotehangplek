@@ -9,8 +9,7 @@ BUGS/GROOT
 - start/end van manual selection moeten aan elkaar gekoppeld zijn met rangelimit
 - play once werkt niet voor achteruit spelen (playback speed -1); zie testdelta~: https://cycling74.com/forums/topic/groove-wont-reverse-on-startloop/
 - bendin en finetune werken op de noten die laatst gespeeld zijn met midi; niet vanaf noot die direct in 'pitch' number box is ingevoerd; pitch number box geeft resultaat weer van alles behalve slide. verwarrend, maar hoe moet het dan wel werken?
-- palindrome werkt niet bij hoge playback speeds / korte selecties (betere waarde vinden voor de 'detectionfraction'?) delta~ gebruiken? of liefst geen detectionfraction gebruiken maar aandrijven dmv triangular signal (play~ ipv groove~?)
-- play once werkt niet voor hele korte selecties; voor evenredig hoge playback wel! delta~ gebruiken?
+- play once werkt niet voor hele korte selecties / hoge playback speeds (betere waarde vinden voor de 'detectionfraction'?) delta~ gebruiken? of liefst geen detectionfraction gebruiken maar aandrijven dmv triangular signal (play~ ipv groove~?)
 - werken trapezoid en/of grooveduck misschien beter voor al dit soort dingen?
 - grainbuffer selectie gaat wel achteruit maar niet vooruit; komt wss door grainbuffer, niet door grotehangplek. Nieuwste versie grainbuffer~ heeft het ook
 - grainbuffer past zich aan aan sampling rate van msp, niet aan sampling rate van de buffer; bij hoge sampling rate laag geluid, bij 44.1 soms te hoog geluid. Nieuwste versie grainbuffer~ heeft het ook. Grain frequency kwaliteit gaat trouwens omhoog met de msp sampling rate!
@@ -18,7 +17,7 @@ BUGS/GROOT
 BUGS/KLEIN
 - reset reset niet alles: travel 'within selection' dial, waveform~ snap mode, waveform~ selection mode, buffer size, input channel selection, selection sample/buffer
 - reset waveform moet je twee keer indrukken om alles gereset te krijgen
-- rare init defaults: anchor rechts, default selection select all maken, 
+- default (init) selection range in waveform is raar: select all na laden sample in buffer?
 - soms alleen geluid in linkerkanaal bij buffer. wordt verholpen door te switchen tussen sample en buffer (nog niet kunnen reproduceren)
 - problemen met de 'keep' selection length; werkt alleen goed als je zelf getal invoert in number box en dan op keep klikt; anders wordt length 0 als je start/end aanpast als keep aan staat
 - teleport to sample werkt nu raar; soms geen geluid, soms start ie geluid terwijl play uit staat (nog niet kunnen reproduceren)

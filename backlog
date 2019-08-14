@@ -33,7 +33,6 @@ FEATURE/GROOT
 - 'remember selection': zoals cues in virtualdj, paar opgeslagen selectieranges die je kan terughalen en/of direct afspelen
 
 FEATURE/KLEIN
-- delays standaard aan, en checkbox uit? slecht voor performance?
 - hear original op direct input standaard aan?
 - input1 en input2 worden nu standaard opgenomen, misschien dit uit kunnen zetten per inputkanaal - kan het kwaad? disk access, crashes?
 - in iedere waveform kunnen schakelen tussen buffer 1, 2 en 3

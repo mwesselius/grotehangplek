@@ -20,8 +20,6 @@ BUGS/KLEIN
 - problemen met de 'keep' selection length; werkt alleen goed als je zelf getal invoert in number box en dan op keep klikt; anders wordt length 0 als je start/end aanpast als keep aan staat
 - teleport to sample werkt nu raar; soms geen geluid, soms start ie geluid terwijl play uit staat (nog niet kunnen reproduceren)
 - waveform grains initialiseert niet met continuous preset (langere delay bij init?)
-- voor delay worden l en r eerst terug gemixt naar mono en dat wordt door de linker en rechter delay gefilterd - gewenst of niet?
-- matrix~ gebruiken om alle onderdelen te mixen; aan/uit led moet met delaymute zodat er geen tik te horen is
 
 FEATURE/GROOT
 - serie 'acties'/pattern kunnen opnemen en afspelen/loopen, soort automation
@@ -33,7 +31,6 @@ FEATURE/GROOT
 - 'remember selection': zoals cues in virtualdj, paar opgeslagen selectieranges die je kan terughalen en/of direct afspelen
 
 FEATURE/KLEIN
-- hear original op direct input standaard aan?
 - input1 en input2 worden nu standaard opgenomen, misschien dit uit kunnen zetten per inputkanaal - kan het kwaad? disk access, crashes?
 - in iedere waveform kunnen schakelen tussen buffer 1, 2 en 3
 - pitchwidget: glide ook laten werken voor playback rate en grain pitch (lastig: voor of na number box?)
@@ -45,3 +42,7 @@ FEATURE/KLEIN
  - 2) snel wisselen tussen heen&terug: tonen (zie palindrome_buggy_backup.maxpat)
 - presets voor reverb~?
 - presets voor random selectie?
+- onthoud selectie in sample-buffer en die in recbuffer apart (nu delen ze dezelfde selection range)
+- hear original op direct input standaard aan?
+- voor delay worden l en r eerst terug gemixt naar mono en dat wordt door de linker en rechter delay gefilterd - gewenst of niet?
+- matrix~ gebruiken om alle onderdelen te mixen; aan/uit led moet met delaymute zodat er geen tik te horen is

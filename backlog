@@ -17,7 +17,6 @@ BUGS/GROOT
 BUGS/KLEIN
 - reset reset niet alles: travel 'within selection' dial, waveform~ snap mode, waveform~ selection mode, buffer size, input channel selection, selection sample/buffer
 - reset waveform moet je twee keer indrukken om alles gereset te krijgen
-- default (init) selection range in waveform is raar: select all na laden sample in buffer?
 - soms alleen geluid in linkerkanaal bij buffer. wordt verholpen door te switchen tussen sample en buffer (nog niet kunnen reproduceren)
 - problemen met de 'keep' selection length; werkt alleen goed als je zelf getal invoert in number box en dan op keep klikt; anders wordt length 0 als je start/end aanpast als keep aan staat
 - teleport to sample werkt nu raar; soms geen geluid, soms start ie geluid terwijl play uit staat (nog niet kunnen reproduceren)

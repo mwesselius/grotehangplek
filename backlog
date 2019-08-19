@@ -31,7 +31,6 @@ FEATURE/GROOT
 - 'remember selection': zoals cues in virtualdj, paar opgeslagen selectieranges die je kan terughalen en/of direct afspelen
 
 FEATURE/KLEIN
-- input1 en input2 worden nu standaard opgenomen, misschien dit uit kunnen zetten per inputkanaal - kan het kwaad? disk access, crashes?
 - in iedere waveform kunnen schakelen tussen buffer 1, 2 en 3
 - pitchwidget: glide ook laten werken voor playback rate en grain pitch (lastig: voor of na number box?)
 - ook een hi-pass filter (togglen)

@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 79.0, 110.0, 1004.0, 532.0 ],
+		"rect" : [ 176.0, 87.0, 1004.0, 532.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 79.0, 110.0, 1004.0, 532.0 ],
+		"defrect" : [ 176.0, 87.0, 1004.0, 532.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -97,7 +97,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 570.0, 300.0, 58.0, 19.0 ],
-					"text" : "delay 100"
+					"text" : "delay 500"
 				}
 
 			}
@@ -754,7 +754,6 @@
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1554,13 +1553,13 @@
 ,
 									"patching_rect" : [ 795.0, 120.0, 124.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p mstopix"
@@ -2403,13 +2402,13 @@
 ,
 					"patching_rect" : [ 795.0, 60.0, 64.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 11.0,
+						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 11.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 11.0
+						"default_fontsize" : 11.0
 					}
 ,
 					"text" : "p playhead"

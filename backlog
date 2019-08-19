@@ -46,3 +46,4 @@ FEATURE/KLEIN
 - hear original op direct input standaard aan?
 - voor delay worden l en r eerst terug gemixt naar mono en dat wordt door de linker en rechter delay gefilterd - gewenst of niet?
 - matrix~ gebruiken om alle onderdelen te mixen; aan/uit led moet met delaymute zodat er geen tik te horen is
+- selectie ook weergeven in mini-weergave buffer bovenin (lukt niet voor livebuf, onduidelijk waarom niet)

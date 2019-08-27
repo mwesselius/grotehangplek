@@ -33,8 +33,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 280.0, 77.0, 37.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 40.707901, 30.469728, 37.0, 17.0 ],
 					"text" : "pander"
 				}
 
@@ -393,13 +391,13 @@
 ,
 					"patching_rect" : [ 255.0, 105.0, 54.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p pander"

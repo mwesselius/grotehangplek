@@ -207,7 +207,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 765.0, 315.0, 58.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 824.0, 283.0, 61.0, 17.0 ],
+					"presentation_rect" : [ 824.0, 282.0, 61.0, 17.0 ],
 					"text" : "normalize"
 				}
 
@@ -223,7 +223,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 885.0, 315.0, 91.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 909.0, 283.0, 91.0, 17.0 ],
+					"presentation_rect" : [ 909.0, 282.0, 91.0, 17.0 ],
 					"text" : "crop to selection"
 				}
 
@@ -267,7 +267,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 150.0, 225.0, 37.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.0, 282.0, 35.0, 19.0 ],
+					"presentation_rect" : [ 290.0, 282.0, 35.0, 19.0 ],
 					"text" : "snap:"
 				}
 
@@ -283,7 +283,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 240.0, 195.0, 35.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 361.0, 282.0, 35.0, 17.0 ],
+					"presentation_rect" : [ 360.0, 282.0, 35.0, 17.0 ],
 					"text" : "none"
 				}
 
@@ -314,7 +314,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 489.0, 195.0, 18.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.0, 282.0, 18.0, 19.0 ],
+					"presentation_rect" : [ 207.0, 282.0, 18.0, 19.0 ],
 					"text" : "d"
 				}
 
@@ -536,7 +536,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 465.0, 315.0, 89.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 709.0, 283.0, 89.0, 17.0 ],
+					"presentation_rect" : [ 709.0, 282.0, 89.0, 17.0 ],
 					"text" : "view & select all"
 				}
 
@@ -1554,13 +1554,13 @@
 ,
 									"patching_rect" : [ 705.0, 225.0, 124.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"fontface" : 0
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p mstopix"
@@ -2341,13 +2341,13 @@
 ,
 					"patching_rect" : [ 795.0, 60.0, 64.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 11.0,
+						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 11.0,
-						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 11.0
 					}
 ,
 					"text" : "p playhead"

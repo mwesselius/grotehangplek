@@ -143,6 +143,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
+					"ignoreclick" : 1,
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -156,6 +157,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-12",
+					"ignoreclick" : 1,
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -762,13 +764,13 @@
 ,
 					"patching_rect" : [ 840.0, 480.0, 95.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 11.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 11.0
 					}
 ,
 					"text" : "p recordinputsdry"
@@ -1471,9 +1473,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 45.0, 741.0, 503.0, 31.0 ],
+						"rect" : [ 45.0, 746.0, 503.0, 26.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 45.0, 741.0, 503.0, 31.0 ],
+						"defrect" : [ 45.0, 746.0, 503.0, 26.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1500,19 +1502,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 840.0, 60.0, 95.0, 20.0 ],
 									"text" : "loadmess 00:00"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-20",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 719.0, 130.0, 43.0, 20.0 ],
-									"text" : "print x"
 								}
 
 							}
@@ -1570,7 +1559,7 @@
 									"patching_rect" : [ 765.0, 120.0, 55.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 427.0, 2.0, 55.0, 22.0 ],
-									"text" : "00:00"
+									"text" : "03:22"
 								}
 
 							}
@@ -2037,15 +2026,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-20", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ],
-									"source" : [ "obj-18", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
 									"hidden" : 0,
 									"midpoints" : [  ],
@@ -2204,13 +2184,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 597.0, 136.0, 63.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p overview"
@@ -2732,13 +2712,13 @@
 ,
 					"patching_rect" : [ 435.0, 300.0, 66.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p taptempo"
@@ -2971,13 +2951,13 @@
 ,
 					"patching_rect" : [ 30.0, 330.0, 71.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p setwindow"
@@ -3092,7 +3072,6 @@
 				"box" : 				{
 					"args" : [  ],
 					"clickthrough" : 1,
-					"hidden" : 1,
 					"id" : "obj-219",
 					"maxclass" : "bpatcher",
 					"name" : "mytempoms.maxpat",
@@ -3110,7 +3089,6 @@
 				"box" : 				{
 					"args" : [  ],
 					"clickthrough" : 1,
-					"hidden" : 1,
 					"id" : "obj-220",
 					"maxclass" : "bpatcher",
 					"name" : "mytempoms.maxpat",
@@ -3464,17 +3442,17 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 555.0, 64.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"statusvisible" : 1,
-						"noloadbangdefeating" : 0,
+						"usesearchpath" : 1,
 						"searchformissingfiles" : 1,
 						"overdrive" : 0,
 						"preffilename" : "Max 5 Preferences",
-						"audiosupport" : 1,
 						"extensions" : 1,
+						"audiosupport" : 1,
+						"allwindowsactive" : 0,
+						"statusvisible" : 1,
 						"cantclosetoplevelpatchers" : 1,
-						"usesearchpath" : 1,
 						"midisupport" : 1,
-						"allwindowsactive" : 0
+						"noloadbangdefeating" : 0
 					}
 ,
 					"text" : "standalone"
@@ -4653,13 +4631,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 596.0, 161.0, 64.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 11.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 11.0
 					}
 ,
 					"text" : "p shortcuts"
@@ -5737,7 +5715,7 @@
 					"patching_rect" : [ 765.0, 630.0, 27.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 459.0, 96.0, 27.0, 17.0 ],
-					"text" : "60"
+					"text" : "51"
 				}
 
 			}
@@ -5753,7 +5731,7 @@
 					"patching_rect" : [ 765.0, 615.0, 27.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 459.0, 77.0, 27.0, 17.0 ],
-					"text" : "5"
+					"text" : "91"
 				}
 
 			}
@@ -7070,13 +7048,13 @@
 ,
 					"patching_rect" : [ 330.0, 180.0, 79.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 11.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 11.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 11.0
 					}
 ,
 					"text" : "p keypresses"

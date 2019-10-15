@@ -1,6 +1,0 @@
-inlets = 2;autowatch = 1;g = new Global("theGlobal");var fArray = new Array(1000);var lArray = new Array(1000);var aantal = 0;// first input lists into first inlet (0), then input something into// second inlet (1) to save these lists to the global.function list(a){        // every sample comes along one by one        // list contains a nonsense number - label name - filename - index in sfplay~
-        var index = arguments[3];        fArray[index] = arguments[2];        lArray[index] = arguments[1];        aantal = index + 1;
-        //post("set aantal to "+aantal+"\n");}function anything(){
-        if(inlet == 1)        {            g.fileArrayUn = new Array(aantal);            g.labelArray = new Array(aantal);            for(var i = 0; i < aantal; i++)            {                g.fileArrayUn[i] = fArray[i];                g.labelArray[i] = lArray[i];            }
-            //post("untuned stuff saved to global.\n");
-            //post("g.labelArray = "+g.labelArray+"\n");        }}

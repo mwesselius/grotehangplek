@@ -1,4 +1,3 @@
-grotehangplek
-=============
+# grotehangplek
 
-Ella Empress and the Layers of Reality use this program for their live performances.
+A music and sampling software environment for live performance. Developed by Maarten Wesselius, originally for Ella Empress and the Layers of Reality, then also for Pels, Oorcontact, and Broodbaksessies.

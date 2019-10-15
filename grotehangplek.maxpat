@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 765.0, 357.5, 65.0, 21.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-33",
 					"linecount" : 2,
 					"maxclass" : "message",
@@ -8715,6 +8727,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-279", 0 ],
 					"source" : [ "obj-280", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"midpoints" : [ 774.5, 383.75, 864.5, 383.75 ],
+					"source" : [ "obj-29", 0 ]
 				}
 
 			}

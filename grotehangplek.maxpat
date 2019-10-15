@@ -3017,7 +3017,7 @@
 					"patching_rect" : [ 369.0, 579.0, 34.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 426.0, 140.0, 28.0, 18.0 ],
-					"text" : "vier"
+					"text" : "vijf"
 				}
 
 			}

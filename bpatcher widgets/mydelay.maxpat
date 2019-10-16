@@ -1244,7 +1244,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"id" : "obj-72",
 					"maxclass" : "led",
 					"numinlets" : 1,
@@ -1612,23 +1611,21 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
 					"id" : "obj-9",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 390.0, 615.0, 25.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 174.0, 41.0, 21.5, 21.0 ],
+					"presentation_rect" : [ 174.0, 40.0, 22.0, 21.0 ],
 					"text" : "clr"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"id" : "obj-10",
 					"maxclass" : "dial",
 					"mode" : 5,
@@ -1646,7 +1643,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"format" : 6,
@@ -1670,7 +1666,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"id" : "obj-12",
 					"maxclass" : "led",
 					"numinlets" : 1,
@@ -1687,7 +1682,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"id" : "obj-13",
 					"maxclass" : "dial",
 					"mode" : 5,
@@ -1733,7 +1727,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"id" : "obj-21",
 					"maxclass" : "dial",
 					"mode" : 5,
@@ -1809,7 +1802,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"format" : 6,
@@ -1876,7 +1868,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"id" : "obj-31",
 					"maxclass" : "led",
 					"numinlets" : 1,
@@ -2013,23 +2004,21 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
 					"id" : "obj-44",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 615.0, 26.0, 21.0 ],
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 180.0, 615.0, 25.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 174.0, 17.0, 21.5, 21.0 ],
+					"presentation_rect" : [ 174.0, 16.0, 22.0, 21.0 ],
 					"text" : "clr"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"id" : "obj-46",
 					"maxclass" : "dial",
 					"mode" : 5,

@@ -415,7 +415,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 255.0, 75.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.320536000000001, 31.728504000000001, 13.169866000000001, 13.169866000000001 ]
+					"presentation_rect" : [ 34.0, 30.0, 16.0, 16.0 ]
 				}
 
 			}
@@ -582,7 +582,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"id" : "obj-24",
 					"maxclass" : "dial",
 					"min" : -64.0,
@@ -595,7 +594,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 90.0, 150.0, 27.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 18.0, 27.0, 27.0 ]
+					"presentation_rect" : [ 0.0, 14.0, 32.0, 32.0 ]
 				}
 
 			}
@@ -616,15 +615,16 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 13.0,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 134.0, 105.0, 33.0, 20.0 ],
+					"patching_rect" : [ 134.0, 105.0, 35.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 33.0, 20.0 ],
-					"text" : "pan"
+					"presentation_rect" : [ 0.000000059604645, -5.0, 31.999999940395355, 21.0 ],
+					"text" : "pan",
+					"textjustification" : 1
 				}
 
 			}

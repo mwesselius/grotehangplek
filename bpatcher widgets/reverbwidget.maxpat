@@ -438,7 +438,7 @@
 					"outlettype" : [ "float", "", "" ],
 					"patching_rect" : [ 315.0, 90.0, 40.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 78.0, 40.0, 20.0, 19.0 ],
+					"presentation_rect" : [ 100.0, 50.0, 20.0, 19.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -536,14 +536,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 9.0,
+					"fontsize" : 10.0,
 					"id" : "obj-43",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 435.0, 195.0, 49.0, 17.0 ],
+					"patching_rect" : [ 435.0, 195.0, 54.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 126.0, 0.0, 52.0, 17.0 ],
+					"presentation_rect" : [ 152.499999955296516, 0.0, 48.500000134110451, 18.0 ],
 					"text" : "re-freeze"
 				}
 
@@ -558,7 +558,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 420.0, 195.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 125.0, 17.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 154.0, 18.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -697,7 +697,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 495.0, 195.0, 18.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 105.0, 18.0, 18.0, 18.0 ]
+					"presentation_rect" : [ 128.0, 18.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -718,15 +718,16 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 9.0,
+					"fontsize" : 10.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 281.0, 142.0, 30.0, 17.0 ],
+					"patching_rect" : [ 281.0, 142.0, 32.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 0.0, 30.0, 17.0 ],
-					"text" : "wet"
+					"presentation_rect" : [ 94.0, 0.0, 32.0, 18.0 ],
+					"text" : "wet",
+					"textjustification" : 1
 				}
 
 			}
@@ -802,7 +803,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"id" : "obj-20",
 					"maxclass" : "dial",
 					"mode" : 5,
@@ -814,13 +814,12 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 282.0, 156.0, 19.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 14.0, 25.0, 25.0 ]
+					"presentation_rect" : [ 94.0, 18.0, 32.0, 32.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"id" : "obj-21",
 					"maxclass" : "dial",
 					"mode" : 5,
@@ -832,28 +831,28 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 198.0, 156.0, 19.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.0, 14.0, 25.0, 25.0 ]
+					"presentation_rect" : [ 60.0, 18.0, 32.0, 32.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 9.0,
+					"fontsize" : 10.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 142.0, 35.0, 17.0 ],
+					"patching_rect" : [ 193.0, 142.0, 39.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 44.0, 0.0, 35.0, 17.0 ],
-					"text" : "damp"
+					"presentation_rect" : [ 56.666666567325592, 0.0, 38.666666656732559, 18.0 ],
+					"text" : "damp",
+					"textjustification" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"id" : "obj-23",
 					"maxclass" : "dial",
 					"mode" : 5,
@@ -865,7 +864,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 114.0, 156.0, 19.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 14.0, 25.0, 25.0 ]
+					"presentation_rect" : [ 26.0, 18.0, 32.0, 32.0 ]
 				}
 
 			}
@@ -885,7 +884,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"id" : "obj-25",
 					"maxclass" : "led",
 					"numinlets" : 1,
@@ -896,7 +894,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 62.0, 157.0, 17.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 18.0, 17.0, 17.0 ]
+					"presentation_rect" : [ 0.0, 18.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1024,30 +1022,32 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 9.0,
+					"fontsize" : 10.0,
 					"id" : "obj-37",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 142.0, 30.0, 17.0 ],
+					"patching_rect" : [ 109.0, 142.0, 32.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 0.0, 30.0, 17.0 ],
-					"text" : "size"
+					"presentation_rect" : [ 26.0, 0.0, 32.0, 18.0 ],
+					"text" : "size",
+					"textjustification" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 9.0,
+					"fontsize" : 10.0,
 					"id" : "obj-38",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 195.0, 39.0, 17.0 ],
+					"patching_rect" : [ 510.0, 195.0, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 98.0, 0.0, 39.0, 17.0 ],
-					"text" : "freeze"
+					"presentation_rect" : [ 121.666666477918625, 0.0, 36.0, 18.0 ],
+					"text" : "freeze",
+					"textjustification" : 1
 				}
 
 			}

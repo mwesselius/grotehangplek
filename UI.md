@@ -8,19 +8,21 @@ This file describes some general guidelines for the styling of UI controls in pr
 - bang and toggle dimensions: 24x24
 - number box and button font size: 14
 - number box and button dimensions: height 24
-- comment font size: 12
-- comment dimensions: height 20
+- comment font size: 13
+- comment dimensions: height 21
 
 ### Small (for less important elements)
 - dial dimensions: 26x26
-- bang and toggle dimensions: 20x20
+- bang and toggle dimensions: 21x21
 - number box and button font size: 11
-- number box and button dimensions: height 20
+- number box and button dimensions: height 21
 - comment font size: 10
 - comment dimensions: height 18
 
 ## Text
 - Arial
+- default font size for text is 12 (comment objects)
+- panel headers are bold
 
 ## Color 
 

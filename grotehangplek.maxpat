@@ -1093,9 +1093,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 1140.0, 180.0, 67.0, 21.0 ],
+					"patching_rect" : [ 1140.0, 180.0, 68.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 43.0, 220.0, 67.0, 21.0 ],
+					"presentation_rect" : [ 43.0, 220.0, 68.0, 21.0 ],
 					"text" : "waveform 1"
 				}
 
@@ -1737,6 +1737,7 @@
 									"patching_rect" : [ 405.0, 90.0, 97.151802000000004, 19.727706999999999 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 210.0, 3.0, 97.151802000000004, 19.727706999999999 ],
+									"varname" : "overviewwidget",
 									"viewvisibility" : 1
 								}
 
@@ -1760,6 +1761,7 @@
 									"patching_rect" : [ 210.0, 90.0, 97.151802000000004, 19.727706999999999 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 105.0, 3.0, 97.151802000000004, 19.727706999999999 ],
+									"varname" : "overviewwidget[1]",
 									"viewvisibility" : 1
 								}
 
@@ -1783,6 +1785,7 @@
 									"patching_rect" : [ 15.0, 90.0, 97.151802000000004, 19.727706999999999 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 3.0, 97.151802000000004, 19.727706999999999 ],
+									"varname" : "overviewwidget[2]",
 									"viewvisibility" : 1
 								}
 
@@ -1834,6 +1837,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 352.0, 4.0, 55.039467000000002, 18.486827999999999 ],
 									"prototypename" : "mysmallmeter",
+									"varname" : "mymetersmall~",
 									"viewvisibility" : 1
 								}
 
@@ -2237,7 +2241,8 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p overview"
+					"text" : "p overview",
+					"varname" : "overview"
 				}
 
 			}
@@ -4810,8 +4815,9 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1725.0, 360.0, 60.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 572.0, 221.0, 55.039467000000002, 18.486827999999999 ],
+					"presentation_rect" : [ 572.0, 221.0, 58.0, 20.0 ],
 					"prototypename" : "mysmallmeter",
+					"varname" : "mymetersmall~",
 					"viewvisibility" : 1
 				}
 
@@ -4832,8 +4838,9 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1455.0, 360.0, 60.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 341.0, 220.0, 55.039467000000002, 18.486827999999999 ],
+					"presentation_rect" : [ 341.0, 220.0, 58.0, 20.0 ],
 					"prototypename" : "mysmallmeter",
+					"varname" : "mymetersmall~[1]",
 					"viewvisibility" : 1
 				}
 
@@ -4854,8 +4861,9 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1185.0, 360.0, 60.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 116.0, 219.0, 55.039467000000002, 18.486827999999999 ],
+					"presentation_rect" : [ 116.0, 220.0, 58.0, 20.0 ],
 					"prototypename" : "mysmallmeter",
+					"varname" : "mymetersmall~[2]",
 					"viewvisibility" : 1
 				}
 
@@ -4876,8 +4884,9 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 2055.0, 345.0, 60.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.0, 401.0, 55.039467000000002, 18.486827999999999 ],
+					"presentation_rect" : [ 161.0, 401.0, 58.0, 20.0 ],
 					"prototypename" : "mysmallmeter",
+					"varname" : "mymetersmall~[3]",
 					"viewvisibility" : 1
 				}
 
@@ -8882,6 +8891,132 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-194::obj-56::obj-4::obj-11" : [ "pictctrl[11]", "pictctrl[1]", 0 ],
+			"obj-170::obj-4::obj-51" : [ "pictctrl[13]", "pictctrl[1]", 0 ],
+			"obj-163::obj-4::obj-11" : [ "pictctrl[22]", "pictctrl[1]", 0 ],
+			"obj-163::obj-4::obj-16" : [ "pictctrl[23]", "pictctrl[1]", 0 ],
+			"obj-163::obj-4::obj-9" : [ "live.slider[8]", "live.slider", 0 ],
+			"obj-194::obj-28::obj-40::obj-4::obj-11" : [ "pictctrl[9]", "pictctrl[1]", 0 ],
+			"obj-194::obj-56::obj-4::obj-9" : [ "live.slider[4]", "live.slider", 0 ],
+			"obj-194::obj-28::obj-40::obj-4::obj-9" : [ "live.slider[3]", "live.slider", 0 ],
+			"obj-194::obj-28::obj-40::obj-4::obj-51" : [ "pictctrl[5]", "pictctrl[1]", 0 ],
+			"obj-169::obj-4::obj-11" : [ "pictctrl[17]", "pictctrl[1]", 0 ],
+			"obj-194::obj-56::obj-4::obj-16" : [ "pictctrl[12]", "pictctrl[1]", 0 ],
+			"obj-194::obj-30::obj-40::obj-4::obj-16" : [ "pictctrl[3]", "pictctrl[1]", 0 ],
+			"obj-194::obj-30::obj-40::obj-4::obj-11" : [ "pictctrl[7]", "pictctrl[1]", 0 ],
+			"obj-194::obj-56::obj-4::obj-51" : [ "pictctrl[10]", "pictctrl[1]", 0 ],
+			"obj-168::obj-4::obj-11" : [ "pictctrl[19]", "pictctrl[1]", 0 ],
+			"obj-168::obj-4::obj-16" : [ "pictctrl[21]", "pictctrl[1]", 0 ],
+			"obj-194::obj-32::obj-40::obj-4::obj-16" : [ "pictctrl[4]", "pictctrl[1]", 0 ],
+			"obj-194::obj-32::obj-40::obj-4::obj-9" : [ "live.slider[1]", "live.slider", 0 ],
+			"obj-194::obj-28::obj-40::obj-4::obj-16" : [ "pictctrl[8]", "pictctrl[1]", 0 ],
+			"obj-194::obj-30::obj-40::obj-4::obj-9" : [ "live.slider[2]", "live.slider", 0 ],
+			"obj-194::obj-30::obj-40::obj-4::obj-51" : [ "pictctrl[2]", "pictctrl[1]", 0 ],
+			"obj-170::obj-4::obj-11" : [ "pictctrl[15]", "pictctrl[1]", 0 ],
+			"obj-169::obj-4::obj-51" : [ "pictctrl[16]", "pictctrl[1]", 0 ],
+			"obj-168::obj-4::obj-9" : [ "live.slider[7]", "live.slider", 0 ],
+			"obj-169::obj-4::obj-16" : [ "pictctrl[18]", "pictctrl[1]", 0 ],
+			"obj-194::obj-32::obj-40::obj-4::obj-11" : [ "pictctrl[1]", "pictctrl[1]", 0 ],
+			"obj-194::obj-32::obj-40::obj-4::obj-51" : [ "pictctrl[6]", "pictctrl[1]", 0 ],
+			"obj-170::obj-4::obj-9" : [ "live.slider[5]", "live.slider", 0 ],
+			"obj-168::obj-4::obj-51" : [ "pictctrl[20]", "pictctrl[1]", 0 ],
+			"obj-170::obj-4::obj-16" : [ "pictctrl[14]", "pictctrl[1]", 0 ],
+			"obj-163::obj-4::obj-51" : [ "pictctrl[24]", "pictctrl[1]", 0 ],
+			"obj-169::obj-4::obj-9" : [ "live.slider[6]", "live.slider", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-170::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[13]"
+				}
+,
+				"obj-163::obj-4::obj-16" : 				{
+					"parameter_longname" : "pictctrl[23]"
+				}
+,
+				"obj-163::obj-4::obj-9" : 				{
+					"parameter_longname" : "live.slider[8]"
+				}
+,
+				"obj-194::obj-56::obj-4::obj-9" : 				{
+					"parameter_longname" : "live.slider[4]"
+				}
+,
+				"obj-194::obj-28::obj-40::obj-4::obj-9" : 				{
+					"parameter_longname" : "live.slider[3]"
+				}
+,
+				"obj-194::obj-28::obj-40::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[5]"
+				}
+,
+				"obj-194::obj-56::obj-4::obj-16" : 				{
+					"parameter_longname" : "pictctrl[12]"
+				}
+,
+				"obj-194::obj-30::obj-40::obj-4::obj-16" : 				{
+					"parameter_longname" : "pictctrl[3]"
+				}
+,
+				"obj-194::obj-56::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[10]"
+				}
+,
+				"obj-168::obj-4::obj-16" : 				{
+					"parameter_longname" : "pictctrl[21]"
+				}
+,
+				"obj-194::obj-28::obj-40::obj-4::obj-16" : 				{
+					"parameter_longname" : "pictctrl[8]"
+				}
+,
+				"obj-194::obj-30::obj-40::obj-4::obj-9" : 				{
+					"parameter_longname" : "live.slider[2]"
+				}
+,
+				"obj-194::obj-30::obj-40::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[2]"
+				}
+,
+				"obj-169::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[16]"
+				}
+,
+				"obj-168::obj-4::obj-9" : 				{
+					"parameter_longname" : "live.slider[7]"
+				}
+,
+				"obj-169::obj-4::obj-16" : 				{
+					"parameter_longname" : "pictctrl[18]"
+				}
+,
+				"obj-170::obj-4::obj-9" : 				{
+					"parameter_longname" : "live.slider[5]"
+				}
+,
+				"obj-168::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[20]"
+				}
+,
+				"obj-170::obj-4::obj-16" : 				{
+					"parameter_longname" : "pictctrl[14]"
+				}
+,
+				"obj-163::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[24]"
+				}
+,
+				"obj-169::obj-4::obj-9" : 				{
+					"parameter_longname" : "live.slider[6]"
+				}
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "inputwidget.maxpat",
 				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
@@ -9041,6 +9176,30 @@
 				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
 				"patcherrelativepath" : "./bpatcher widgets",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vz.fadr.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "data-handler.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vzgl-object.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vizzie-global.js",
+				"bootpath" : "C74:/packages/Vizzie/code",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

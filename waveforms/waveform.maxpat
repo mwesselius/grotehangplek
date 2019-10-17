@@ -514,7 +514,7 @@
 					"outlettype" : [ "float", "float", "" ],
 					"patching_rect" : [ 495.0, 750.0, 154.0, 54.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 525.0, 396.0, 156.0, 52.0 ],
+					"presentation_rect" : [ 554.0, 403.0, 156.0, 52.0 ],
 					"prototypename" : "tempoms",
 					"varname" : "arptempo",
 					"viewvisibility" : 1

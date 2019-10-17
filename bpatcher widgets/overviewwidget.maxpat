@@ -133,14 +133,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial Bold",
-					"fontsize" : 13.0,
+					"fontsize" : 14.0,
 					"id" : "obj-38",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 90.0, 26.0, 21.0 ],
+					"patching_rect" : [ 45.0, 90.0, 28.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -3.084346, -0.771086, 26.0, 21.0 ],
+					"presentation_rect" : [ -2.0, -0.5, 27.999999850988388, 22.0 ],
 					"text" : "#1"
 				}
 
@@ -161,15 +161,15 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 210.0, 90.0, 55.407893999999999, 18.868417999999998 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.0, 1.0, 55.039467000000002, 18.486827999999999 ],
+					"presentation_rect" : [ 49.915654000000004, 1.728914, 58.706133775941851, 19.0 ],
 					"prototypename" : "mysmallmeter",
+					"varname" : "mymetersmall~",
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"id" : "obj-26",
 					"maxclass" : "led",
 					"numinlets" : 1,
@@ -180,7 +180,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 135.0, 90.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 0.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 23.915654, -0.771086, 24.0, 24.0 ]
 				}
 
 			}
@@ -235,11 +235,46 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-40::obj-4::obj-51" : [ "pictctrl[6]", "pictctrl[1]", 0 ],
+			"obj-40::obj-4::obj-11" : [ "pictctrl[1]", "pictctrl[1]", 0 ],
+			"obj-40::obj-4::obj-16" : [ "pictctrl[4]", "pictctrl[1]", 0 ],
+			"obj-40::obj-4::obj-9" : [ "live.slider[1]", "live.slider", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "mymetersmall~.maxpat",
 				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vz.fadr.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "data-handler.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vzgl-object.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vizzie-global.js",
+				"bootpath" : "C74:/packages/Vizzie/code",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],

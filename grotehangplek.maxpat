@@ -3466,7 +3466,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1965.0, 330.0, 77.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 98.0, 660.0, 95.0, 45.0 ],
+					"presentation_rect" : [ 98.0, 660.0, 95.0, 47.5 ],
 					"viewvisibility" : 1
 				}
 
@@ -5735,7 +5735,7 @@
 					"patching_rect" : [ 765.0, 630.0, 27.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 494.026305999999977, 106.0, 27.0, 21.0 ],
-					"text" : "51",
+					"text" : "28",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -5763,7 +5763,7 @@
 					"patching_rect" : [ 765.0, 615.0, 27.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 494.026305999999977, 82.0, 27.0, 21.0 ],
-					"text" : "71",
+					"text" : "114",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -8918,38 +8918,38 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-194::obj-56::obj-4::obj-9" : [ "live.slider[4]", "live.slider", 0 ],
-			"obj-194::obj-28::obj-40::obj-4::obj-51" : [ "pictctrl[5]", "pictctrl[1]", 0 ],
-			"obj-194::obj-30::obj-40::obj-4::obj-9" : [ "live.slider[2]", "live.slider", 0 ],
-			"obj-168::obj-4::obj-9" : [ "live.slider[7]", "live.slider", 0 ],
-			"obj-169::obj-4::obj-51" : [ "pictctrl[16]", "pictctrl[1]", 0 ],
-			"obj-194::obj-32::obj-40::obj-4::obj-51" : [ "pictctrl[6]", "pictctrl[1]", 0 ],
-			"obj-170::obj-4::obj-9" : [ "live.slider[5]", "live.slider", 0 ],
-			"obj-194::obj-56::obj-4::obj-16" : [ "pictctrl[12]", "pictctrl[1]", 0 ],
-			"obj-163::obj-4::obj-9" : [ "live.slider[8]", "live.slider", 0 ],
-			"obj-168::obj-4::obj-16" : [ "pictctrl[21]", "pictctrl[1]", 0 ],
-			"obj-169::obj-4::obj-11" : [ "pictctrl[17]", "pictctrl[1]", 0 ],
-			"obj-194::obj-56::obj-4::obj-11" : [ "pictctrl[11]", "pictctrl[1]", 0 ],
-			"obj-194::obj-28::obj-40::obj-4::obj-9" : [ "live.slider[3]", "live.slider", 0 ],
-			"obj-194::obj-30::obj-40::obj-4::obj-11" : [ "pictctrl[7]", "pictctrl[1]", 0 ],
-			"obj-169::obj-4::obj-9" : [ "live.slider[6]", "live.slider", 0 ],
-			"obj-170::obj-4::obj-11" : [ "pictctrl[15]", "pictctrl[1]", 0 ],
-			"obj-194::obj-56::obj-4::obj-51" : [ "pictctrl[10]", "pictctrl[1]", 0 ],
 			"obj-194::obj-32::obj-40::obj-4::obj-11" : [ "pictctrl[1]", "pictctrl[1]", 0 ],
+			"obj-194::obj-56::obj-4::obj-9" : [ "live.slider[4]", "live.slider", 0 ],
+			"obj-194::obj-32::obj-40::obj-4::obj-16" : [ "pictctrl[4]", "pictctrl[1]", 0 ],
+			"obj-194::obj-28::obj-40::obj-4::obj-11" : [ "pictctrl[9]", "pictctrl[1]", 0 ],
+			"obj-169::obj-4::obj-9" : [ "live.slider[6]", "live.slider", 0 ],
+			"obj-194::obj-32::obj-40::obj-4::obj-9" : [ "live.slider[1]", "live.slider", 0 ],
+			"obj-194::obj-30::obj-40::obj-4::obj-16" : [ "pictctrl[3]", "pictctrl[1]", 0 ],
+			"obj-163::obj-4::obj-51" : [ "pictctrl[24]", "pictctrl[1]", 0 ],
+			"obj-170::obj-4::obj-11" : [ "pictctrl[15]", "pictctrl[1]", 0 ],
 			"obj-163::obj-4::obj-16" : [ "pictctrl[23]", "pictctrl[1]", 0 ],
-			"obj-194::obj-28::obj-40::obj-4::obj-16" : [ "pictctrl[8]", "pictctrl[1]", 0 ],
-			"obj-163::obj-4::obj-11" : [ "pictctrl[22]", "pictctrl[1]", 0 ],
-			"obj-168::obj-4::obj-51" : [ "pictctrl[20]", "pictctrl[1]", 0 ],
+			"obj-194::obj-30::obj-40::obj-4::obj-51" : [ "pictctrl[2]", "pictctrl[1]", 0 ],
+			"obj-194::obj-56::obj-4::obj-16" : [ "pictctrl[12]", "pictctrl[1]", 0 ],
+			"obj-168::obj-4::obj-16" : [ "pictctrl[21]", "pictctrl[1]", 0 ],
+			"obj-194::obj-28::obj-40::obj-4::obj-51" : [ "pictctrl[5]", "pictctrl[1]", 0 ],
 			"obj-169::obj-4::obj-16" : [ "pictctrl[18]", "pictctrl[1]", 0 ],
 			"obj-170::obj-4::obj-51" : [ "pictctrl[13]", "pictctrl[1]", 0 ],
-			"obj-194::obj-32::obj-40::obj-4::obj-16" : [ "pictctrl[4]", "pictctrl[1]", 0 ],
-			"obj-194::obj-32::obj-40::obj-4::obj-9" : [ "live.slider[1]", "live.slider", 0 ],
-			"obj-163::obj-4::obj-51" : [ "pictctrl[24]", "pictctrl[1]", 0 ],
-			"obj-194::obj-28::obj-40::obj-4::obj-11" : [ "pictctrl[9]", "pictctrl[1]", 0 ],
-			"obj-168::obj-4::obj-11" : [ "pictctrl[19]", "pictctrl[1]", 0 ],
-			"obj-194::obj-30::obj-40::obj-4::obj-16" : [ "pictctrl[3]", "pictctrl[1]", 0 ],
-			"obj-194::obj-30::obj-40::obj-4::obj-51" : [ "pictctrl[2]", "pictctrl[1]", 0 ],
+			"obj-163::obj-4::obj-9" : [ "live.slider[8]", "live.slider", 0 ],
+			"obj-168::obj-4::obj-9" : [ "live.slider[7]", "live.slider", 0 ],
+			"obj-194::obj-32::obj-40::obj-4::obj-51" : [ "pictctrl[6]", "pictctrl[1]", 0 ],
+			"obj-194::obj-28::obj-40::obj-4::obj-9" : [ "live.slider[3]", "live.slider", 0 ],
+			"obj-194::obj-30::obj-40::obj-4::obj-11" : [ "pictctrl[7]", "pictctrl[1]", 0 ],
 			"obj-170::obj-4::obj-16" : [ "pictctrl[14]", "pictctrl[1]", 0 ],
+			"obj-194::obj-56::obj-4::obj-51" : [ "pictctrl[10]", "pictctrl[1]", 0 ],
+			"obj-168::obj-4::obj-51" : [ "pictctrl[20]", "pictctrl[1]", 0 ],
+			"obj-194::obj-28::obj-40::obj-4::obj-16" : [ "pictctrl[8]", "pictctrl[1]", 0 ],
+			"obj-169::obj-4::obj-51" : [ "pictctrl[16]", "pictctrl[1]", 0 ],
+			"obj-194::obj-30::obj-40::obj-4::obj-9" : [ "live.slider[2]", "live.slider", 0 ],
+			"obj-170::obj-4::obj-9" : [ "live.slider[5]", "live.slider", 0 ],
+			"obj-163::obj-4::obj-11" : [ "pictctrl[22]", "pictctrl[1]", 0 ],
+			"obj-194::obj-56::obj-4::obj-11" : [ "pictctrl[11]", "pictctrl[1]", 0 ],
+			"obj-168::obj-4::obj-11" : [ "pictctrl[19]", "pictctrl[1]", 0 ],
+			"obj-169::obj-4::obj-11" : [ "pictctrl[17]", "pictctrl[1]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -8959,60 +8959,36 @@
 					"parameter_longname" : "live.slider[4]"
 				}
 ,
-				"obj-194::obj-28::obj-40::obj-4::obj-51" : 				{
-					"parameter_longname" : "pictctrl[5]"
-				}
-,
-				"obj-194::obj-30::obj-40::obj-4::obj-9" : 				{
-					"parameter_longname" : "live.slider[2]"
-				}
-,
-				"obj-168::obj-4::obj-9" : 				{
-					"parameter_longname" : "live.slider[7]"
-				}
-,
-				"obj-169::obj-4::obj-51" : 				{
-					"parameter_longname" : "pictctrl[16]"
-				}
-,
-				"obj-170::obj-4::obj-9" : 				{
-					"parameter_longname" : "live.slider[5]"
-				}
-,
-				"obj-194::obj-56::obj-4::obj-16" : 				{
-					"parameter_longname" : "pictctrl[12]"
-				}
-,
-				"obj-163::obj-4::obj-9" : 				{
-					"parameter_longname" : "live.slider[8]"
-				}
-,
-				"obj-168::obj-4::obj-16" : 				{
-					"parameter_longname" : "pictctrl[21]"
-				}
-,
-				"obj-194::obj-28::obj-40::obj-4::obj-9" : 				{
-					"parameter_longname" : "live.slider[3]"
-				}
-,
 				"obj-169::obj-4::obj-9" : 				{
 					"parameter_longname" : "live.slider[6]"
 				}
 ,
-				"obj-194::obj-56::obj-4::obj-51" : 				{
-					"parameter_longname" : "pictctrl[10]"
+				"obj-194::obj-30::obj-40::obj-4::obj-16" : 				{
+					"parameter_longname" : "pictctrl[3]"
+				}
+,
+				"obj-163::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[24]"
 				}
 ,
 				"obj-163::obj-4::obj-16" : 				{
 					"parameter_longname" : "pictctrl[23]"
 				}
 ,
-				"obj-194::obj-28::obj-40::obj-4::obj-16" : 				{
-					"parameter_longname" : "pictctrl[8]"
+				"obj-194::obj-30::obj-40::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[2]"
 				}
 ,
-				"obj-168::obj-4::obj-51" : 				{
-					"parameter_longname" : "pictctrl[20]"
+				"obj-194::obj-56::obj-4::obj-16" : 				{
+					"parameter_longname" : "pictctrl[12]"
+				}
+,
+				"obj-168::obj-4::obj-16" : 				{
+					"parameter_longname" : "pictctrl[21]"
+				}
+,
+				"obj-194::obj-28::obj-40::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[5]"
 				}
 ,
 				"obj-169::obj-4::obj-16" : 				{
@@ -9023,20 +8999,44 @@
 					"parameter_longname" : "pictctrl[13]"
 				}
 ,
-				"obj-163::obj-4::obj-51" : 				{
-					"parameter_longname" : "pictctrl[24]"
+				"obj-163::obj-4::obj-9" : 				{
+					"parameter_longname" : "live.slider[8]"
 				}
 ,
-				"obj-194::obj-30::obj-40::obj-4::obj-16" : 				{
-					"parameter_longname" : "pictctrl[3]"
+				"obj-168::obj-4::obj-9" : 				{
+					"parameter_longname" : "live.slider[7]"
 				}
 ,
-				"obj-194::obj-30::obj-40::obj-4::obj-51" : 				{
-					"parameter_longname" : "pictctrl[2]"
+				"obj-194::obj-28::obj-40::obj-4::obj-9" : 				{
+					"parameter_longname" : "live.slider[3]"
 				}
 ,
 				"obj-170::obj-4::obj-16" : 				{
 					"parameter_longname" : "pictctrl[14]"
+				}
+,
+				"obj-194::obj-56::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[10]"
+				}
+,
+				"obj-168::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[20]"
+				}
+,
+				"obj-194::obj-28::obj-40::obj-4::obj-16" : 				{
+					"parameter_longname" : "pictctrl[8]"
+				}
+,
+				"obj-169::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[16]"
+				}
+,
+				"obj-194::obj-30::obj-40::obj-4::obj-9" : 				{
+					"parameter_longname" : "live.slider[2]"
+				}
+,
+				"obj-170::obj-4::obj-9" : 				{
+					"parameter_longname" : "live.slider[5]"
 				}
 
 			}

@@ -15,6 +15,7 @@
 - grainbuffer past zich aan aan sampling rate van msp, niet aan sampling rate van de buffer; bij hoge sampling rate laag geluid, bij 44.1 soms te hoog geluid. Nieuwste versie grainbuffer~ heeft het ook. Grain frequency kwaliteit gaat trouwens omhoog met de msp sampling rate!
 
 ## kleine bugs
+- selecteer live buffer, load sample, selecteer sample buffer, play: horz pos playhead klopt niet
 - soms alleen geluid in linkerkanaal bij buffer. wordt verholpen door te switchen tussen sample en buffer (nog niet kunnen reproduceren)
 - teleport to sample werkt nu raar; soms geen geluid, soms start ie geluid terwijl play uit staat (nog niet kunnen reproduceren)
 - waveform grains initialiseert niet met continuous preset (langere delay bij init?)
@@ -32,9 +33,11 @@
 - 'remember selection': zoals cues in virtualdj, paar opgeslagen selectieranges die je kan terughalen en/of direct afspelen
 
 ## kleine features
+- tempo-gerelateerde messages/buttons/keypresses (B!) op mousedown ipv mouseup; is accurater
 - direct mic hide/show; alles horizontaal: mic-w1-w2-w3; dus mic klapt in en de rest flowt erachter
 - in iedere waveform kunnen schakelen tussen buffer 1, 2 en 3
 - pitchwidget: glide ook laten werken voor playback rate en grain pitch (lastig: voor of na number box?)
+- default grain dispersion in percussive preset gelijk maken aan default BPM van 100
 - ook een hi-pass filter (togglen)
 - meer dingen aan dials kunnen koppelen: panning? delay feedback, volume?
 - monodelay time parameter filteren met line~? moet wel instelbaar zijn, geeft ander effect, geen tikjes meer

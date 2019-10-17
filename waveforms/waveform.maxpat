@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 212.0, 45.0, 1170.0, 720.0 ],
+		"rect" : [ 217.0, 49.0, 1170.0, 721.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -4262,7 +4262,7 @@
 					"name" : "my_selection_playback.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -2000.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 30.0, 1095.0, 165.0, 75.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 134.0, 592.0, 682.0, 109.0 ],
@@ -11305,7 +11305,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 616.0, 88.0, 82.0 ],
 					"size" : 4,
-					"value" : 2
+					"value" : 0
 				}
 
 			}
@@ -11334,7 +11334,7 @@
 				"box" : 				{
 					"angle" : 30.0,
 					"background" : 1,
-					"bgcolor" : [ 0.666666666666667, 0.670588235294118, 0.670588235294118, 1.0 ],
+					"bgcolor" : [ 0.607843137254902, 0.615686274509804, 0.611764705882353, 1.0 ],
 					"border" : 2,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-189",
@@ -11417,7 +11417,8 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bordercolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
+					"border" : 0.0,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-30",
 					"ignoreclick" : 1,
 					"maxclass" : "dropfile",
@@ -11426,7 +11427,8 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 30.0, 180.0, 60.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 1170.0, 720.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 1170.0, 720.0 ],
+					"rounded" : 0.0
 				}
 
 			}
@@ -12724,7 +12726,8 @@
 				"type" : "iLaX"
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.725490196078431, 0.729411764705882, 0.729411764705882, 1.0 ]
 	}
 
 }

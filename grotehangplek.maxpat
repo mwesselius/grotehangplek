@@ -2936,7 +2936,7 @@
 					"outlettype" : [ "float", "", "" ],
 					"patching_rect" : [ 1770.0, 285.0, 41.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 703.750000894069672, 407.0, 19.0, 19.0 ],
+					"presentation_rect" : [ 703.750000999999997, 407.0, 19.0, 19.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -5761,7 +5761,7 @@
 					"patching_rect" : [ 765.0, 615.0, 27.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 494.026305999999977, 82.0, 27.0, 21.0 ],
-					"text" : "91",
+					"text" : "71",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 

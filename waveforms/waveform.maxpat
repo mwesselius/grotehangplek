@@ -514,7 +514,7 @@
 					"outlettype" : [ "float", "float", "" ],
 					"patching_rect" : [ 495.0, 750.0, 154.0, 54.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 525.0, 396.0, 150.0, 52.0 ],
+					"presentation_rect" : [ 525.0, 396.0, 156.0, 52.0 ],
 					"prototypename" : "tempoms",
 					"varname" : "arptempo",
 					"viewvisibility" : 1
@@ -845,7 +845,7 @@
 					"outlettype" : [ "float", "", "" ],
 					"patching_rect" : [ 825.0, 1230.0, 42.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1065.0, 460.0, 20.0, 22.0 ],
+					"presentation_rect" : [ 1065.5, 461.0, 19.0, 19.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -918,7 +918,7 @@
 					"outlettype" : [ "", "", "", "float" ],
 					"patching_rect" : [ 405.0, 1260.0, 225.0, 90.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 445.0, 431.0, 389.0, 146.0 ],
+					"presentation_rect" : [ 445.0, 433.0, 389.0, 146.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1136,7 +1136,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 255.0, 1635.0, 83.0, 74.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 945.0, 433.0, 82.400000035762787, 59.0 ],
+					"presentation_rect" : [ 845.0, 436.0, 95.400000035762787, 63.866027999999972 ],
 					"viewvisibility" : 1
 				}
 
@@ -3347,7 +3347,7 @@
 					"outlettype" : [ "float", "float", "" ],
 					"patching_rect" : [ 330.0, 750.0, 154.0, 54.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 286.0, 440.0, 150.0, 52.0 ],
+					"presentation_rect" : [ 276.0, 440.0, 155.0, 52.0 ],
 					"prototypename" : "tempoms",
 					"varname" : "temposelection",
 					"viewvisibility" : 1
@@ -4024,6 +4024,7 @@
 					"clickthrough" : 1,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-4",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
@@ -4034,7 +4035,7 @@
 					"outlettype" : [ "float", "float", "" ],
 					"patching_rect" : [ 165.0, 750.0, 154.0, 54.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 681.0, 583.0, 150.0, 52.0 ],
+					"presentation_rect" : [ 684.0, 583.0, 158.0, 52.0 ],
 					"prototypename" : "tempoms",
 					"varname" : "tempograin",
 					"viewvisibility" : 1

@@ -1701,8 +1701,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 750.0, 345.0, 73.0, 21.0 ],
-									"text" : "lineto $1 256"
+									"patching_rect" : [ 750.0, 345.0, 71.0, 21.0 ],
+									"text" : "lineto $1 308"
 								}
 
 							}
@@ -2293,7 +2293,6 @@
 					"allowdrag" : 0,
 					"bgcolor" : [ 0.235294, 0.698039, 0.678431, 0.0 ],
 					"buffername" : "#1filebuf",
-					"chanoffset" : 0,
 					"frozen_box_attributes" : [ "snapto" ],
 					"grid" : 0.0,
 					"gridcolor" : [ 0.392, 0.392, 0.392, 1.0 ],

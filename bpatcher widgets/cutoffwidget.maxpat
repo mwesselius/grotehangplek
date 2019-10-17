@@ -475,7 +475,7 @@
 					"outlettype" : [ "float", "", "" ],
 					"patching_rect" : [ 135.0, 120.0, 40.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 40.0, 20.0, 19.0 ],
+					"presentation_rect" : [ 32.198802999999998, 44.0, 19.0, 19.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -612,7 +612,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 213.0, 156.0, 19.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 53.0, 14.0, 25.0, 25.0 ],
+					"presentation_rect" : [ 59.698802999999998, 12.0, 32.0, 32.0 ],
 					"style" : "default"
 				}
 
@@ -620,15 +620,16 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 9.0,
+					"fontsize" : 10.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 208.0, 142.0, 23.0, 17.0 ],
+					"patching_rect" : [ 208.0, 142.0, 25.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.0, 0.0, 21.204788000000001, 17.0 ],
-					"text" : "res"
+					"presentation_rect" : [ 59.698802999999998, -3.698803, 31.5, 18.0 ],
+					"text" : "res",
+					"textjustification" : 1
 				}
 
 			}
@@ -643,14 +644,13 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 114.0, 156.0, 19.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.457827000000002, 10.144567, 30.397606, 30.397606 ],
+					"presentation_rect" : [ 25.698803000000002, 12.0, 32.0, 32.0 ],
 					"style" : "default"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"id" : "obj-25",
 					"maxclass" : "led",
 					"numinlets" : 1,
@@ -661,7 +661,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 165.0, 17.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 18.0, 17.0, 17.0 ]
+					"presentation_rect" : [ 0.0, 12.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -718,15 +718,16 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 9.0,
+					"fontsize" : 10.0,
 					"id" : "obj-37",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 142.0, 27.0, 17.0 ],
+					"patching_rect" : [ 109.0, 142.0, 29.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.698803000000002, -2.698803, 21.0, 17.0 ],
-					"text" : "cut"
+					"presentation_rect" : [ 25.198803000000002, -3.698803, 32.5, 18.0 ],
+					"text" : "cut",
+					"textjustification" : 1
 				}
 
 			}

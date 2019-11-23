@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 217.0, 49.0, 1170.0, 721.0 ],
+		"rect" : [ 217.0, 79.0, 1170.0, 721.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -164,19 +164,16 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.25098 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"border" : 2.0,
 					"id" : "obj-25",
-					"maxclass" : "panel",
-					"mode" : 0,
+					"justification" : 1,
+					"linecolor" : [ 0.0, 0.0, 0.0, 0.45 ],
+					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1080.0, 705.0, 4.0, 60.0 ],
+					"patching_rect" : [ 1080.0, 705.0, 5.0, 50.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 537.0, 435.0, 4.0, 124.0 ],
-					"prototypename" : "scheidingsbalkje",
-					"rounded" : 0
+					"presentation_rect" : [ 537.0, 435.0, 5.0, 125.666666835546494 ]
 				}
 
 			}
@@ -205,7 +202,7 @@
 					"patching_rect" : [ 30.0, 1305.0, 64.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1064.0, 632.0, 75.0, 21.0 ],
-					"text" : "84993"
+					"text" : "30000"
 				}
 
 			}
@@ -220,7 +217,7 @@
 					"patching_rect" : [ 210.0, 1365.0, 23.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1064.0, 676.0, 24.0, 21.0 ],
-					"text" : "2"
+					"text" : "1"
 				}
 
 			}
@@ -263,7 +260,7 @@
 					"patching_rect" : [ 105.0, 1305.0, 64.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1064.0, 654.0, 76.0, 21.0 ],
-					"text" : "3748220"
+					"text" : "1323000"
 				}
 
 			}
@@ -1748,37 +1745,31 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.25098 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"border" : 2.0,
 					"id" : "obj-18",
-					"maxclass" : "panel",
-					"mode" : 0,
+					"justification" : 1,
+					"linecolor" : [ 0.0, 0.0, 0.0, 0.45 ],
+					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1062.0, 705.0, 4.0, 60.0 ],
+					"patching_rect" : [ 1062.0, 776.0, 5.0, 50.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 118.0, 418.0, 4.0, 142.0 ],
-					"prototypename" : "scheidingsbalkje",
-					"rounded" : 0
+					"presentation_rect" : [ 118.0, 418.0, 5.0, 142.99999988079071 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.25098 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"border" : 2.0,
 					"id" : "obj-17",
-					"maxclass" : "panel",
-					"mode" : 0,
+					"justification" : 1,
+					"linecolor" : [ 0.0, 0.0, 0.0, 0.45 ],
+					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1062.0, 705.0, 4.0, 60.0 ],
+					"patching_rect" : [ 1062.0, 705.0, 5.0, 50.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 118.0, 599.0, 4.0, 94.0 ],
-					"prototypename" : "scheidingsbalkje",
-					"rounded" : 0
+					"presentation_rect" : [ 118.0, 599.0, 5.0, 90.166667848825455 ]
 				}
 
 			}
@@ -2067,7 +2058,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 84.0, 8.0, 65.0, 58.0 ],
 					"size" : 2,
-					"value" : 0
+					"value" : 1
 				}
 
 			}
@@ -3996,7 +3987,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 570.0, 990.0, 83.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.0, 472.0, 83.0, 21.0 ],
+					"presentation_rect" : [ 41.0, 472.0, 80.0, 21.0 ],
 					"text" : "randomized"
 				}
 
@@ -8436,8 +8427,8 @@
 														"basictuning" : 440,
 														"followglobaltempo" : 0,
 														"formantcorrection" : 0,
-														"loopend" : [ 52967.439474419465114, "ms" ],
-														"loopstart" : [ 42913.584251268322987, "ms" ],
+														"loopend" : [ 30000.001038012895151, "ms" ],
+														"loopstart" : [ 0.0, "ms" ],
 														"mode" : "basic",
 														"originallength" : [ 0.0, "ticks" ],
 														"originaltempo" : 120.0,

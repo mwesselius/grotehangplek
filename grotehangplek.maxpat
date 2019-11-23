@@ -1559,7 +1559,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 48.0, 844.0, 514.0, 50.0 ],
+						"rect" : [ 48.0, 844.0, 512.0, 50.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1589,53 +1589,61 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"border" : 5.0,
 									"id" : "obj-26",
-									"maxclass" : "panel",
+									"justification" : 1,
+									"linecolor" : [ 0.243137254901961, 0.243137254901961, 0.243137254901961, 1.0 ],
+									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 570.0, 150.0, 15.0, 30.0 ],
+									"patching_rect" : [ 570.0, 150.0, 5.0, 30.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 113.5, 0.0, 4.0, 30.0 ],
-									"rounded" : 0
+									"presentation_rect" : [ 113.5, 0.0, 5.0, 30.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"border" : 5.0,
 									"id" : "obj-25",
-									"maxclass" : "panel",
+									"justification" : 1,
+									"linecolor" : [ 0.243137254901961, 0.243137254901961, 0.243137254901961, 1.0 ],
+									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 600.0, 150.0, 15.0, 30.0 ],
+									"patching_rect" : [ 600.0, 150.0, 5.0, 30.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 231.0, 0.0, 4.0, 30.0 ],
-									"rounded" : 0
+									"presentation_rect" : [ 231.0, 0.0, 5.0, 30.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"border" : 5.0,
 									"id" : "obj-24",
-									"maxclass" : "panel",
+									"justification" : 1,
+									"linecolor" : [ 0.243137254901961, 0.243137254901961, 0.243137254901961, 1.0 ],
+									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 630.0, 150.0, 15.0, 30.0 ],
+									"patching_rect" : [ 630.0, 150.0, 5.0, 30.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 349.0, 0.0, 4.0, 30.0 ],
-									"rounded" : 0
+									"presentation_rect" : [ 349.0, 0.0, 5.0, 30.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"border" : 5.0,
 									"id" : "obj-23",
-									"maxclass" : "panel",
+									"justification" : 1,
+									"linecolor" : [ 0.243137254901961, 0.243137254901961, 0.243137254901961, 1.0 ],
+									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 660.0, 150.0, 15.0, 30.0 ],
+									"patching_rect" : [ 660.0, 150.0, 5.0, 30.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 437.872799568407061, 0.0, 4.0, 30.0 ],
-									"rounded" : 0
+									"presentation_rect" : [ 437.872799568407061, 0.0, 5.0, 30.0 ]
 								}
 
 							}
@@ -2295,7 +2303,7 @@
 
 							}
  ],
-						"bgcolor" : [ 0.725490196078431, 0.729411764705882, 0.729411764705882, 1.0 ]
+						"bgcolor" : [ 0.611764705882353, 0.615686274509804, 0.615686274509804, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 465.0, 90.0, 63.0, 21.0 ],
@@ -2305,7 +2313,7 @@
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.725490196078431, 0.729411764705882, 0.729411764705882, 1.0 ],
+						"locked_bgcolor" : [ 0.611764705882353, 0.615686274509804, 0.615686274509804, 1.0 ],
 						"tags" : ""
 					}
 ,
@@ -8918,125 +8926,125 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-194::obj-32::obj-40::obj-4::obj-11" : [ "pictctrl[1]", "pictctrl[1]", 0 ],
-			"obj-194::obj-56::obj-4::obj-9" : [ "live.slider[4]", "live.slider", 0 ],
-			"obj-194::obj-32::obj-40::obj-4::obj-16" : [ "pictctrl[4]", "pictctrl[1]", 0 ],
-			"obj-194::obj-28::obj-40::obj-4::obj-11" : [ "pictctrl[9]", "pictctrl[1]", 0 ],
-			"obj-169::obj-4::obj-9" : [ "live.slider[6]", "live.slider", 0 ],
-			"obj-194::obj-32::obj-40::obj-4::obj-9" : [ "live.slider[1]", "live.slider", 0 ],
-			"obj-194::obj-30::obj-40::obj-4::obj-16" : [ "pictctrl[3]", "pictctrl[1]", 0 ],
-			"obj-163::obj-4::obj-51" : [ "pictctrl[24]", "pictctrl[1]", 0 ],
-			"obj-170::obj-4::obj-11" : [ "pictctrl[15]", "pictctrl[1]", 0 ],
-			"obj-163::obj-4::obj-16" : [ "pictctrl[23]", "pictctrl[1]", 0 ],
-			"obj-194::obj-30::obj-40::obj-4::obj-51" : [ "pictctrl[2]", "pictctrl[1]", 0 ],
-			"obj-194::obj-56::obj-4::obj-16" : [ "pictctrl[12]", "pictctrl[1]", 0 ],
-			"obj-168::obj-4::obj-16" : [ "pictctrl[21]", "pictctrl[1]", 0 ],
-			"obj-194::obj-28::obj-40::obj-4::obj-51" : [ "pictctrl[5]", "pictctrl[1]", 0 ],
-			"obj-169::obj-4::obj-16" : [ "pictctrl[18]", "pictctrl[1]", 0 ],
-			"obj-170::obj-4::obj-51" : [ "pictctrl[13]", "pictctrl[1]", 0 ],
-			"obj-163::obj-4::obj-9" : [ "live.slider[8]", "live.slider", 0 ],
-			"obj-168::obj-4::obj-9" : [ "live.slider[7]", "live.slider", 0 ],
-			"obj-194::obj-32::obj-40::obj-4::obj-51" : [ "pictctrl[6]", "pictctrl[1]", 0 ],
-			"obj-194::obj-28::obj-40::obj-4::obj-9" : [ "live.slider[3]", "live.slider", 0 ],
-			"obj-194::obj-30::obj-40::obj-4::obj-11" : [ "pictctrl[7]", "pictctrl[1]", 0 ],
-			"obj-170::obj-4::obj-16" : [ "pictctrl[14]", "pictctrl[1]", 0 ],
-			"obj-194::obj-56::obj-4::obj-51" : [ "pictctrl[10]", "pictctrl[1]", 0 ],
-			"obj-168::obj-4::obj-51" : [ "pictctrl[20]", "pictctrl[1]", 0 ],
-			"obj-194::obj-28::obj-40::obj-4::obj-16" : [ "pictctrl[8]", "pictctrl[1]", 0 ],
 			"obj-169::obj-4::obj-51" : [ "pictctrl[16]", "pictctrl[1]", 0 ],
-			"obj-194::obj-30::obj-40::obj-4::obj-9" : [ "live.slider[2]", "live.slider", 0 ],
 			"obj-170::obj-4::obj-9" : [ "live.slider[5]", "live.slider", 0 ],
+			"obj-194::obj-56::obj-4::obj-9" : [ "live.slider[4]", "live.slider", 0 ],
 			"obj-163::obj-4::obj-11" : [ "pictctrl[22]", "pictctrl[1]", 0 ],
-			"obj-194::obj-56::obj-4::obj-11" : [ "pictctrl[11]", "pictctrl[1]", 0 ],
+			"obj-194::obj-28::obj-40::obj-4::obj-51" : [ "pictctrl[5]", "pictctrl[1]", 0 ],
+			"obj-163::obj-4::obj-9" : [ "live.slider[8]", "live.slider", 0 ],
 			"obj-168::obj-4::obj-11" : [ "pictctrl[19]", "pictctrl[1]", 0 ],
 			"obj-169::obj-4::obj-11" : [ "pictctrl[17]", "pictctrl[1]", 0 ],
+			"obj-170::obj-4::obj-16" : [ "pictctrl[14]", "pictctrl[1]", 0 ],
+			"obj-194::obj-32::obj-40::obj-4::obj-11" : [ "pictctrl[1]", "pictctrl[1]", 0 ],
+			"obj-163::obj-4::obj-16" : [ "pictctrl[23]", "pictctrl[1]", 0 ],
+			"obj-194::obj-28::obj-40::obj-4::obj-16" : [ "pictctrl[8]", "pictctrl[1]", 0 ],
+			"obj-168::obj-4::obj-51" : [ "pictctrl[20]", "pictctrl[1]", 0 ],
+			"obj-194::obj-30::obj-40::obj-4::obj-9" : [ "live.slider[2]", "live.slider", 0 ],
+			"obj-170::obj-4::obj-11" : [ "pictctrl[15]", "pictctrl[1]", 0 ],
+			"obj-194::obj-32::obj-40::obj-4::obj-16" : [ "pictctrl[4]", "pictctrl[1]", 0 ],
+			"obj-194::obj-56::obj-4::obj-11" : [ "pictctrl[11]", "pictctrl[1]", 0 ],
+			"obj-194::obj-32::obj-40::obj-4::obj-9" : [ "live.slider[1]", "live.slider", 0 ],
+			"obj-194::obj-28::obj-40::obj-4::obj-9" : [ "live.slider[3]", "live.slider", 0 ],
+			"obj-194::obj-30::obj-40::obj-4::obj-11" : [ "pictctrl[7]", "pictctrl[1]", 0 ],
+			"obj-168::obj-4::obj-16" : [ "pictctrl[21]", "pictctrl[1]", 0 ],
+			"obj-169::obj-4::obj-16" : [ "pictctrl[18]", "pictctrl[1]", 0 ],
+			"obj-194::obj-30::obj-40::obj-4::obj-51" : [ "pictctrl[2]", "pictctrl[1]", 0 ],
+			"obj-170::obj-4::obj-51" : [ "pictctrl[13]", "pictctrl[1]", 0 ],
+			"obj-194::obj-56::obj-4::obj-51" : [ "pictctrl[10]", "pictctrl[1]", 0 ],
+			"obj-163::obj-4::obj-51" : [ "pictctrl[24]", "pictctrl[1]", 0 ],
+			"obj-168::obj-4::obj-9" : [ "live.slider[7]", "live.slider", 0 ],
+			"obj-169::obj-4::obj-9" : [ "live.slider[6]", "live.slider", 0 ],
+			"obj-194::obj-32::obj-40::obj-4::obj-51" : [ "pictctrl[6]", "pictctrl[1]", 0 ],
+			"obj-194::obj-56::obj-4::obj-16" : [ "pictctrl[12]", "pictctrl[1]", 0 ],
+			"obj-194::obj-28::obj-40::obj-4::obj-11" : [ "pictctrl[9]", "pictctrl[1]", 0 ],
+			"obj-194::obj-30::obj-40::obj-4::obj-16" : [ "pictctrl[3]", "pictctrl[1]", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-169::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[16]"
+				}
+,
+				"obj-170::obj-4::obj-9" : 				{
+					"parameter_longname" : "live.slider[5]"
+				}
+,
 				"obj-194::obj-56::obj-4::obj-9" : 				{
 					"parameter_longname" : "live.slider[4]"
-				}
-,
-				"obj-169::obj-4::obj-9" : 				{
-					"parameter_longname" : "live.slider[6]"
-				}
-,
-				"obj-194::obj-30::obj-40::obj-4::obj-16" : 				{
-					"parameter_longname" : "pictctrl[3]"
-				}
-,
-				"obj-163::obj-4::obj-51" : 				{
-					"parameter_longname" : "pictctrl[24]"
-				}
-,
-				"obj-163::obj-4::obj-16" : 				{
-					"parameter_longname" : "pictctrl[23]"
-				}
-,
-				"obj-194::obj-30::obj-40::obj-4::obj-51" : 				{
-					"parameter_longname" : "pictctrl[2]"
-				}
-,
-				"obj-194::obj-56::obj-4::obj-16" : 				{
-					"parameter_longname" : "pictctrl[12]"
-				}
-,
-				"obj-168::obj-4::obj-16" : 				{
-					"parameter_longname" : "pictctrl[21]"
 				}
 ,
 				"obj-194::obj-28::obj-40::obj-4::obj-51" : 				{
 					"parameter_longname" : "pictctrl[5]"
 				}
 ,
-				"obj-169::obj-4::obj-16" : 				{
-					"parameter_longname" : "pictctrl[18]"
-				}
-,
-				"obj-170::obj-4::obj-51" : 				{
-					"parameter_longname" : "pictctrl[13]"
-				}
-,
 				"obj-163::obj-4::obj-9" : 				{
 					"parameter_longname" : "live.slider[8]"
-				}
-,
-				"obj-168::obj-4::obj-9" : 				{
-					"parameter_longname" : "live.slider[7]"
-				}
-,
-				"obj-194::obj-28::obj-40::obj-4::obj-9" : 				{
-					"parameter_longname" : "live.slider[3]"
 				}
 ,
 				"obj-170::obj-4::obj-16" : 				{
 					"parameter_longname" : "pictctrl[14]"
 				}
 ,
-				"obj-194::obj-56::obj-4::obj-51" : 				{
-					"parameter_longname" : "pictctrl[10]"
-				}
-,
-				"obj-168::obj-4::obj-51" : 				{
-					"parameter_longname" : "pictctrl[20]"
+				"obj-163::obj-4::obj-16" : 				{
+					"parameter_longname" : "pictctrl[23]"
 				}
 ,
 				"obj-194::obj-28::obj-40::obj-4::obj-16" : 				{
 					"parameter_longname" : "pictctrl[8]"
 				}
 ,
-				"obj-169::obj-4::obj-51" : 				{
-					"parameter_longname" : "pictctrl[16]"
+				"obj-168::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[20]"
 				}
 ,
 				"obj-194::obj-30::obj-40::obj-4::obj-9" : 				{
 					"parameter_longname" : "live.slider[2]"
 				}
 ,
-				"obj-170::obj-4::obj-9" : 				{
-					"parameter_longname" : "live.slider[5]"
+				"obj-194::obj-28::obj-40::obj-4::obj-9" : 				{
+					"parameter_longname" : "live.slider[3]"
+				}
+,
+				"obj-168::obj-4::obj-16" : 				{
+					"parameter_longname" : "pictctrl[21]"
+				}
+,
+				"obj-169::obj-4::obj-16" : 				{
+					"parameter_longname" : "pictctrl[18]"
+				}
+,
+				"obj-194::obj-30::obj-40::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[2]"
+				}
+,
+				"obj-170::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[13]"
+				}
+,
+				"obj-194::obj-56::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[10]"
+				}
+,
+				"obj-163::obj-4::obj-51" : 				{
+					"parameter_longname" : "pictctrl[24]"
+				}
+,
+				"obj-168::obj-4::obj-9" : 				{
+					"parameter_longname" : "live.slider[7]"
+				}
+,
+				"obj-169::obj-4::obj-9" : 				{
+					"parameter_longname" : "live.slider[6]"
+				}
+,
+				"obj-194::obj-56::obj-4::obj-16" : 				{
+					"parameter_longname" : "pictctrl[12]"
+				}
+,
+				"obj-194::obj-30::obj-40::obj-4::obj-16" : 				{
+					"parameter_longname" : "pictctrl[3]"
 				}
 
 			}
@@ -9163,6 +9171,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "pander.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "drunkplus.maxpat",
 				"bootpath" : "~/Maxpatches/common_abstractions",
 				"patcherrelativepath" : "../../common_abstractions",
@@ -9274,13 +9289,6 @@
 				"name" : "pwinwaveformLOR.maxpat",
 				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/waveforms",
 				"patcherrelativepath" : "./waveforms",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mygizmo.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -9412,6 +9420,13 @@
 			}
 , 			{
 				"name" : "miditopitch.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mygizmo.maxpat",
 				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

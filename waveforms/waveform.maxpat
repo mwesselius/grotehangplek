@@ -5628,7 +5628,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 114.0, 91.0, 1136.0, 711.0 ],
+										"rect" : [ 114.0, 91.0, 1263.0, 765.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 11.0,
@@ -5664,7 +5664,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 315.0, 555.0, 83.0, 21.0 ],
+													"patching_rect" : [ 315.0, 615.0, 83.0, 21.0 ],
 													"text" : "r #1nrchannels"
 												}
 
@@ -5758,7 +5758,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "signal" ],
-													"patching_rect" : [ 225.0, 615.0, 40.0, 21.0 ],
+													"patching_rect" : [ 225.0, 675.0, 40.0, 21.0 ],
 													"text" : "pass~"
 												}
 
@@ -5772,7 +5772,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "signal" ],
-													"patching_rect" : [ 315.0, 615.0, 40.0, 21.0 ],
+													"patching_rect" : [ 315.0, 675.0, 40.0, 21.0 ],
 													"text" : "pass~"
 												}
 
@@ -5785,7 +5785,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 390.0, 510.0, 150.0, 19.0 ],
+													"patching_rect" : [ 390.0, 570.0, 150.0, 19.0 ],
 													"text" : "smooth stop multipliers"
 												}
 
@@ -5796,10 +5796,10 @@
 													"fontsize" : 11.0,
 													"id" : "obj-53",
 													"maxclass" : "newobj",
-													"numinlets" : 2,
+													"numinlets" : 3,
 													"numoutlets" : 3,
 													"outlettype" : [ "signal", "signal", "bang" ],
-													"patching_rect" : [ 300.0, 510.0, 77.0, 21.0 ],
+													"patching_rect" : [ 300.0, 570.0, 77.0, 21.0 ],
 													"text" : "stopsound 10"
 												}
 
@@ -5810,10 +5810,10 @@
 													"fontsize" : 11.0,
 													"id" : "obj-52",
 													"maxclass" : "newobj",
-													"numinlets" : 2,
+													"numinlets" : 3,
 													"numoutlets" : 3,
 													"outlettype" : [ "signal", "signal", "bang" ],
-													"patching_rect" : [ 210.0, 510.0, 77.0, 21.0 ],
+													"patching_rect" : [ 210.0, 570.0, 77.0, 21.0 ],
 													"text" : "stopsound 10"
 												}
 
@@ -7475,7 +7475,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 30.0, 570.0, 74.0, 21.0 ],
+													"patching_rect" : [ 30.0, 645.0, 74.0, 21.0 ],
 													"text" : "s #1togroove"
 												}
 
@@ -7693,7 +7693,7 @@
 													"numinlets" : 3,
 													"numoutlets" : 2,
 													"outlettype" : [ "signal", "signal" ],
-													"patching_rect" : [ 225.0, 585.0, 109.0, 21.0 ],
+													"patching_rect" : [ 225.0, 645.0, 109.0, 21.0 ],
 													"text" : "monostereo"
 												}
 
@@ -7774,7 +7774,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 90.0, 540.0, 33.0, 21.0 ],
+													"patching_rect" : [ 90.0, 615.0, 33.0, 21.0 ],
 													"text" : "stop"
 												}
 
@@ -7802,7 +7802,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 30.0, 540.0, 53.0, 21.0 ],
+													"patching_rect" : [ 30.0, 615.0, 53.0, 21.0 ],
 													"text" : "startloop"
 												}
 
@@ -7942,7 +7942,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 315.0, 645.0, 25.0, 25.0 ]
+													"patching_rect" : [ 315.0, 705.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -7954,7 +7954,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 225.0, 645.0, 25.0, 25.0 ]
+													"patching_rect" : [ 225.0, 705.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -8214,7 +8214,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-67", 0 ],
-													"midpoints" : [ 277.5, 534.0, 99.5, 534.0 ],
+													"midpoints" : [ 277.5, 601.0, 99.5, 601.0 ],
 													"source" : [ "obj-52", 2 ]
 												}
 
@@ -8229,7 +8229,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-67", 0 ],
-													"midpoints" : [ 367.5, 534.0, 99.5, 534.0 ],
+													"midpoints" : [ 367.5, 601.0, 99.5, 601.0 ],
 													"source" : [ "obj-53", 2 ]
 												}
 
@@ -8363,7 +8363,26 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-52", 2 ],
+													"midpoints" : [ 39.5, 544.0, 277.5, 544.0 ],
+													"order" : 1,
+													"source" : [ "obj-68", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-53", 2 ],
+													"midpoints" : [ 39.5, 544.0, 367.5, 544.0 ],
+													"order" : 0,
+													"source" : [ "obj-68", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-69", 0 ],
+													"order" : 2,
 													"source" : [ "obj-68", 0 ]
 												}
 
@@ -8462,7 +8481,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-52", 1 ],
-													"midpoints" : [ 144.5, 504.0, 277.5, 504.0 ],
+													"midpoints" : [ 144.5, 504.0, 248.5, 504.0 ],
 													"order" : 1,
 													"source" : [ "obj-82", 0 ]
 												}
@@ -8471,7 +8490,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-53", 1 ],
-													"midpoints" : [ 144.5, 504.0, 367.5, 504.0 ],
+													"midpoints" : [ 144.5, 504.0, 338.5, 504.0 ],
 													"order" : 0,
 													"source" : [ "obj-82", 0 ]
 												}

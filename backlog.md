@@ -24,8 +24,10 @@
 # FEATURES
 
 ## grote features
+- delays besturen met extra midi controller (arturia beatstep?) met incremental dials
 - serie 'acties'/pattern kunnen opnemen en afspelen/loopen, soort automation
 - distortion-effect toevoegen?
+- stutter effect toevoegen (zoals in krakakrasgrijs)?
 - 4/5 ipv 3 waveforms?
 - andere 'speelmodus' voor waveform: noteon triggert play (noteoff triggers stop) en bepaalt pitch; polyfoon maken wordt lastig, met mono beginnen? ADSR maken? echte sampler
 - transport introduceren en gebruiken om loops in de maat te syncen; o.a. groove~ kan transport gebruiken om loops te syncen
@@ -33,12 +35,12 @@
 - 'remember selection': zoals cues in virtualdj, paar opgeslagen selectieranges die je kan terughalen en/of direct afspelen
 
 ## kleine features
-- tempo-gerelateerde messages/buttons/keypresses (B!) op mousedown ipv mouseup; is accurater
+- geen textbuttons maar messages gebruiken voor tempo-gerelateerde dingen: mousedown is accurater dan mouseup
 - direct mic hide/show; alles horizontaal: mic-w1-w2-w3; dus mic klapt in en de rest flowt erachter
 - in iedere waveform kunnen schakelen tussen buffer 1, 2 en 3
 - pitchwidget: glide ook laten werken voor playback rate en grain pitch (lastig: voor of na number box?)
-- default grain dispersion in percussive preset gelijk maken aan default BPM van 100
 - ook een hi-pass filter (togglen)
+- compressor op de totale output (naast limiter)
 - meer dingen aan dials kunnen koppelen: panning? delay feedback, volume?
 - monodelay time parameter filteren met line~? moet wel instelbaar zijn, geeft ander effect, geen tikjes meer
 - leuke palindrome bugs als optie houden

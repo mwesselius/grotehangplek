@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 49.0, 49.0, 826.0, 735.0 ],
+		"rect" : [ 49.0, 53.0, 826.0, 735.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -40,6 +40,20 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 105.0, 30.0, 65.0, 21.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 11.0,
 					"id" : "obj-42",
 					"maxclass" : "newobj",
@@ -49,8 +63,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1029,6 +1043,7 @@
 					"hidden" : 1,
 					"id" : "obj-207",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mytempoms.maxpat",
 					"numinlets" : 1,
@@ -1053,6 +1068,7 @@
 					"hidden" : 1,
 					"id" : "obj-206",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mytempoms.maxpat",
 					"numinlets" : 1,
@@ -1923,8 +1939,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1970,7 +1986,14 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 570.0, 150.0, 5.0, 30.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 113.5, 0.0, 5.0, 30.0 ]
+									"presentation_rect" : [ 113.5, 0.0, 5.0, 30.0 ],
+									"saved_attribute_attributes" : 									{
+										"linecolor" : 										{
+											"expression" : ""
+										}
+
+									}
+
 								}
 
 							}
@@ -1985,7 +2008,14 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 600.0, 150.0, 5.0, 30.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 231.0, 0.0, 5.0, 30.0 ]
+									"presentation_rect" : [ 231.0, 0.0, 5.0, 30.0 ],
+									"saved_attribute_attributes" : 									{
+										"linecolor" : 										{
+											"expression" : ""
+										}
+
+									}
+
 								}
 
 							}
@@ -2000,7 +2030,14 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 630.0, 150.0, 5.0, 30.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 349.0, 0.0, 5.0, 30.0 ]
+									"presentation_rect" : [ 349.0, 0.0, 5.0, 30.0 ],
+									"saved_attribute_attributes" : 									{
+										"linecolor" : 										{
+											"expression" : ""
+										}
+
+									}
+
 								}
 
 							}
@@ -2015,7 +2052,14 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 660.0, 150.0, 5.0, 30.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 437.872799568407061, 0.0, 5.0, 30.0 ]
+									"presentation_rect" : [ 437.872799568407061, 0.0, 5.0, 30.0 ],
+									"saved_attribute_attributes" : 									{
+										"linecolor" : 										{
+											"expression" : ""
+										}
+
+									}
+
 								}
 
 							}
@@ -2170,6 +2214,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-32",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "overviewwidget.maxpat",
 									"numinlets" : 3,
@@ -2194,6 +2239,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-30",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "overviewwidget.maxpat",
 									"numinlets" : 3,
@@ -2218,6 +2264,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-28",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "overviewwidget.maxpat",
 									"numinlets" : 3,
@@ -2270,6 +2317,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-56",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "mymetersmall~.maxpat",
 									"numinlets" : 2,
@@ -2794,8 +2842,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3213,6 +3261,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-119",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "counterwidget.maxpat",
 					"numinlets" : 0,
@@ -3309,6 +3358,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-227",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "midi_ctl_widget.maxpat",
 					"numinlets" : 1,
@@ -3331,6 +3381,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-226",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "midi_ctl_widget.maxpat",
 					"numinlets" : 1,
@@ -3353,6 +3404,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-225",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "midi_ctl_widget.maxpat",
 					"numinlets" : 1,
@@ -3376,6 +3428,7 @@
 					"hidden" : 1,
 					"id" : "obj-219",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mytempoms.maxpat",
 					"numinlets" : 1,
@@ -3400,6 +3453,7 @@
 					"hidden" : 1,
 					"id" : "obj-220",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mytempoms.maxpat",
 					"numinlets" : 1,
@@ -3424,6 +3478,7 @@
 					"hidden" : 1,
 					"id" : "obj-217",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mytempoms.maxpat",
 					"numinlets" : 1,
@@ -3448,6 +3503,7 @@
 					"hidden" : 1,
 					"id" : "obj-218",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mytempoms.maxpat",
 					"numinlets" : 1,
@@ -3472,6 +3528,7 @@
 					"hidden" : 1,
 					"id" : "obj-215",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mytempoms.maxpat",
 					"numinlets" : 1,
@@ -3496,6 +3553,7 @@
 					"hidden" : 1,
 					"id" : "obj-216",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mytempoms.maxpat",
 					"numinlets" : 1,
@@ -3839,6 +3897,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-54",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "myvolume.maxpat",
 					"numinlets" : 3,
@@ -3861,6 +3920,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-175",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "panwidget.maxpat",
 					"numinlets" : 3,
@@ -3897,6 +3957,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-164",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mydelay.maxpat",
 					"numinlets" : 5,
@@ -3919,6 +3980,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-66",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mydelay.maxpat",
 					"numinlets" : 5,
@@ -3941,6 +4003,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-72",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mydelay.maxpat",
 					"numinlets" : 5,
@@ -3966,8 +4029,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5211,6 +5274,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-170",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mymetersmall~.maxpat",
 					"numinlets" : 2,
@@ -5234,6 +5298,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-169",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mymetersmall~.maxpat",
 					"numinlets" : 2,
@@ -5257,6 +5322,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-168",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mymetersmall~.maxpat",
 					"numinlets" : 2,
@@ -5280,6 +5346,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-163",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mymetersmall~.maxpat",
 					"numinlets" : 2,
@@ -5413,6 +5480,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-153",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "myvolume.maxpat",
 					"numinlets" : 3,
@@ -5435,6 +5503,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-154",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "panwidget.maxpat",
 					"numinlets" : 3,
@@ -5525,6 +5594,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-142",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "myvolume.maxpat",
 					"numinlets" : 3,
@@ -5547,6 +5617,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-143",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "panwidget.maxpat",
 					"numinlets" : 3,
@@ -5637,6 +5708,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-127",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "myvolume.maxpat",
 					"numinlets" : 3,
@@ -5659,6 +5731,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-128",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "panwidget.maxpat",
 					"numinlets" : 3,
@@ -5740,6 +5813,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-64",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "reverbwidget.maxpat",
 					"numinlets" : 5,
@@ -5762,6 +5836,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-65",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mydelay.maxpat",
 					"numinlets" : 5,
@@ -5784,6 +5859,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-20",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "recordingwidget.maxpat",
 					"numinlets" : 1,
@@ -6117,7 +6193,7 @@
 					"patching_rect" : [ 270.0, 660.0, 27.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 584.026305999999977, 106.0, 27.0, 21.0 ],
-					"text" : "28",
+					"text" : "72",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -6145,7 +6221,7 @@
 					"patching_rect" : [ 270.0, 645.0, 27.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 584.026305999999977, 82.0, 27.0, 21.0 ],
-					"text" : "114",
+					"text" : "113",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -6193,8 +6269,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7412,18 +7488,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-34",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 60.0, 20.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"id" : "obj-32",
@@ -7638,6 +7702,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-24",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mygainmeter~.maxpat",
 					"numinlets" : 2,
@@ -7661,6 +7726,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-290",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "inputwidget.maxpat",
 					"numinlets" : 0,
@@ -8966,33 +9032,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-197", 0 ],
-					"midpoints" : [ 39.5, 84.5, 219.5, 84.5 ],
-					"order" : 0,
-					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-199", 0 ],
-					"midpoints" : [ 39.5, 84.5, 114.5, 84.5 ],
-					"order" : 1,
-					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"order" : 2,
-					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -9071,6 +9111,23 @@
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-199", 0 ],
+					"order" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"midpoints" : [ 114.5, 72.0, 39.5, 72.0 ],
+					"order" : 1,
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -9367,367 +9424,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "inputwidget.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
-				"patcherrelativepath" : "./bpatcher widgets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mygainmeter~.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions/bpatcher",
-				"patcherrelativepath" : "../../common_abstractions/bpatcher",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "recordingwidget.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions/bpatcher",
-				"patcherrelativepath" : "../../common_abstractions/bpatcher",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "generaterecordingfilename.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mydelay.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
-				"patcherrelativepath" : "./bpatcher widgets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "monodelay~.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soundgate~.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "altreset.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stopsound.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "shiftsetter.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "shiftbanger.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "throttle.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "reverbwidget.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
-				"patcherrelativepath" : "./bpatcher widgets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "midi_ctl_widget.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions/bpatcher",
-				"patcherrelativepath" : "../../common_abstractions/bpatcher",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "panwidget.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
-				"patcherrelativepath" : "./bpatcher widgets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stereopan.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mstosamps.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pander.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "drunkplus.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "randomminmax.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stochinvert.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "myvolume.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
-				"patcherrelativepath" : "./bpatcher widgets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "listentokeys.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mymetersmall~.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
-				"patcherrelativepath" : "./bpatcher widgets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vz.fadr.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "data-handler.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vzgl-object.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vizzie-global.js",
-				"bootpath" : "C74:/packages/Vizzie/code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mytempoms.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
-				"patcherrelativepath" : "./bpatcher widgets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "counterwidget.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions/bpatcher",
-				"patcherrelativepath" : "../../common_abstractions/bpatcher",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "limiter~.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "overviewwidget.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
-				"patcherrelativepath" : "./bpatcher widgets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "colorfocuspanel.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "waveform.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/waveforms",
-				"patcherrelativepath" : "./waveforms",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pwinwaveformLOR.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/waveforms",
-				"patcherrelativepath" : "./waveforms",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "smoothselector4~.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "smoothselector2~.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "delaymute.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "monostereo.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "smoothselector~.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "my_selection_playback.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/waveforms",
-				"patcherrelativepath" : "./waveforms",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rangelimit.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "randomminmax2.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lerp.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "my_selection_position.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/waveforms",
-				"patcherrelativepath" : "./waveforms",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "linearauto.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lerp~.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "roundoff.maxpat",
-				"bootpath" : "~/Maxpatches/common_abstractions",
-				"patcherrelativepath" : "../../common_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tempoabove.maxpat",
-				"bootpath" : "~/Maxpatches/unheard",
-				"patcherrelativepath" : "../../unheard",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cutoffwidget.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
-				"patcherrelativepath" : "./bpatcher widgets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mstosamps_waveform.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/waveforms",
-				"patcherrelativepath" : "./waveforms",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pitchwidget.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
-				"patcherrelativepath" : "./bpatcher widgets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "notelist.maxpat",
 				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -9741,16 +9438,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "miditopitch.maxpat",
+				"name" : "colorfocuspanel.maxpat",
 				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mygizmo.maxpat",
-				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source",
-				"patcherrelativepath" : ".",
+				"name" : "counterwidget.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions/bpatcher",
+				"patcherrelativepath" : "../../common_abstractions/bpatcher",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -9762,12 +9459,366 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "cutoffwidget.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
+				"patcherrelativepath" : "./bpatcher widgets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "data-handler.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "delaymute.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "drunkplus.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "freeverb~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "generaterecordingfilename.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "grainbuffer~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "inputwidget.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
+				"patcherrelativepath" : "./bpatcher widgets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lerp.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lerp~.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "limiter~.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "linearauto.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "listentokeys.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "midi_ctl_widget.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions/bpatcher",
+				"patcherrelativepath" : "../../common_abstractions/bpatcher",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "miditopitch.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "monodelay~.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "monostereo.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mstosamps.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mstosamps_waveform.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/waveforms",
+				"patcherrelativepath" : "./waveforms",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "my_selection_playback.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/waveforms",
+				"patcherrelativepath" : "./waveforms",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "my_selection_position.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/waveforms",
+				"patcherrelativepath" : "./waveforms",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mydelay.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
+				"patcherrelativepath" : "./bpatcher widgets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mygainmeter~.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions/bpatcher",
+				"patcherrelativepath" : "../../common_abstractions/bpatcher",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mygizmo.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mymetersmall~.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
+				"patcherrelativepath" : "./bpatcher widgets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mytempoms.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
+				"patcherrelativepath" : "./bpatcher widgets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "myvolume.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
+				"patcherrelativepath" : "./bpatcher widgets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "notelist.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "overviewwidget.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
+				"patcherrelativepath" : "./bpatcher widgets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pander.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "panwidget.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
+				"patcherrelativepath" : "./bpatcher widgets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pitchwidget.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
+				"patcherrelativepath" : "./bpatcher widgets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pwinwaveformLOR.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/waveforms",
+				"patcherrelativepath" : "./waveforms",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "randomminmax.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "randomminmax2.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rangelimit.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "recordingwidget.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions/bpatcher",
+				"patcherrelativepath" : "../../common_abstractions/bpatcher",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "reverbwidget.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/bpatcher widgets",
+				"patcherrelativepath" : "./bpatcher widgets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "roundoff.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "shiftbanger.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "shiftsetter.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "smoothselector2~.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "smoothselector4~.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "smoothselector~.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soundgate~.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stereopan.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stochinvert.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stopsound.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tempoabove.maxpat",
+				"bootpath" : "~/Maxpatches/unheard",
+				"patcherrelativepath" : "../../unheard",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "throttle.maxpat",
+				"bootpath" : "~/Maxpatches/common_abstractions",
+				"patcherrelativepath" : "../../common_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vizzie-datatexconvert.js",
+				"bootpath" : "C74:/packages/Vizzie/code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vz.fadr.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "waveform.maxpat",
+				"bootpath" : "~/Maxpatches/grotehangplek/grotehangplek_source/waveforms",
+				"patcherrelativepath" : "./waveforms",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
